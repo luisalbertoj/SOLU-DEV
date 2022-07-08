@@ -1,0 +1,93 @@
+{
+  "projectType": "application",
+  "root": "apps/leads-up",
+  "sourceRoot": "apps/leads-up/src",
+  "prefix": "solu-dev",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/leads-up",
+        "index": "apps/leads-up/src/index.html",
+        "main": "apps/leads-up/src/main.ts",
+        "polyfills": "apps/leads-up/src/polyfills.ts",
+        "tsConfig": "apps/leads-up/tsconfig.app.json",
+        "assets": ["apps/leads-up/src/favicon.ico", "apps/leads-up/src/assets"],
+        "styles": ["apps/leads-up/src/styles.css"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "4kb"
+            }
+          ],
+          "fileReplacements": [
+            {
+              "replace": "apps/leads-up/src/environments/environment.ts",
+              "with": "apps/leads-up/src/environments/environment.prod.ts"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "browserTarget": "leads-up:build:production"
+        },
+        "development": {
+          "browserTarget": "leads-up:build:development"
+        }
+      },
+      "defaultConfiguration": "development",
+      "options": {
+        "proxyConfig": "apps/leads-up/proxy.conf.json"
+      }
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "browserTarget": "leads-up:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "apps/leads-up/src/**/*.ts",
+          "apps/leads-up/src/**/*.html"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/leads-up"],
+      "options": {
+        "jestConfig": "apps/leads-up/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

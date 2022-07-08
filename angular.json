@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "projects": {
+    "api": "apps/api",
+    "api-interfaces": "libs/api-interfaces",
+    "leads-up": "apps/leads-up",
+    "leads-up-e2e": "apps/leads-up-e2e"
+  }
+}

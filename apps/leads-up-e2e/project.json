@@ -1,0 +1,28 @@
+{
+  "root": "apps/leads-up-e2e",
+  "sourceRoot": "apps/leads-up-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/leads-up-e2e/cypress.json",
+        "devServerTarget": "leads-up:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "leads-up:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/leads-up-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["leads-up"]
+}
