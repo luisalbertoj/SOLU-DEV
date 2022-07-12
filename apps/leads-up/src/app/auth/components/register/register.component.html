@@ -1,0 +1,16 @@
+<label for="nombre">
+  Name
+  <input type="text" name="name" [(ngModel)]="registerData.name" />
+</label>
+
+<label for="email">
+  email
+  <input type="email" name="email" [(ngModel)]="registerData.email"/>
+</label>
+
+<label for="password">
+  Password
+  <input type="password" name="password" [(ngModel)]="registerData.password" />
+  <button (click)="newUser()">Save</button>
+</label>
+

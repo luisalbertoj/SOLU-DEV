@@ -1,0 +1,33 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "css.lint.duplicateProperties": "error",
+  "prettier.configPath": ".prettierrc",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true }
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": [
+    "source.fixAll",
+    "source.addMissingImports",
+    "source.organizeImports"
+  ],
+  "terminal.integrated.profiles.windows": {
+    "Git bash": {
+      "icon": "terminal-linux",
+      "path": "E:\\Program Files\\Git\\bin\\bash.exe"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git bash",
+  "files.autoSave": "afterDelay"
+}

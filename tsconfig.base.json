@@ -15,7 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@solu-dev/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@app/*": ["apps/leads-up/src/app/*"],
+      "@core/*": ["apps/leads-up/src/app/core/*"],
+      "@shared/*": ["apps/leads-up/src/app/shared/*"],
+      "@solu-dev/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@src/*": ["apps/leads-up/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
