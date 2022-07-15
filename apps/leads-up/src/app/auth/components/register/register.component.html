@@ -1,6 +1,5 @@
 <label for="nombre">
   Name
-  //ngModel comunica bidirecionalmente los datos de la vista al controlador
   <input type="text" name="name" [(ngModel)]="registerData.name" />
 </label>
 
@@ -9,10 +8,9 @@
   <input type="email" name="email" [(ngModel)]="registerData.email"/>
 </label>
 
-<label for="password">
+<label for="password" i18n>
   Password
   <input type="password" name="password" [(ngModel)]="registerData.password" />
-  // invoca la ejecucion de un metodo del controlador (nunca se deben ejecutar metodos directamente en el template)
   <button (click)="newUser()">Save</button>
 </label>
 
