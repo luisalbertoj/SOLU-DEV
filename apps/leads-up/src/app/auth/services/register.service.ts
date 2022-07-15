@@ -9,6 +9,7 @@ import { RegisterModel, RegisterResModel } from '../models/register.model';
 })
 export class RegisterService {
   private env = environment;
+  // Se inyecta el modulo de protocolo http para generar peticiones get put etc...
   constructor(private _httpClient: HttpClient) { }
 
   create(newUser: RegisterModel): Observable<RegisterResModel> {
