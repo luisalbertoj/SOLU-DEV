@@ -1,0 +1,10 @@
+<button
+  mat-raised-button
+  [class.spinner]="loading"
+  [type]="type"
+  [color]="color"
+  [disabled]="disabled || loading"
+  (click)="handlerClickButton()"
+>
+  {{ textContent || '' }}
+</button>

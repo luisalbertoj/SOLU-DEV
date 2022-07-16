@@ -1,16 +1,73 @@
-<label for="nombre">
-  Name
-  <input type="text" name="name" [(ngModel)]="registerData.name" />
-</label>
+<div class="main-div">
+  <mat-card>
+    <h1>Register Form</h1>
+    <form [formGroup]="registerForm" (submit)="newUser()">
 
-<label for="email">
-  email
-  <input type="email" name="email" [(ngModel)]="registerData.email"/>
-</label>
-
-<label for="password" i18n>
-  Password
-  <input type="password" name="password" [(ngModel)]="registerData.password" />
-  <button (click)="newUser()">Save</button>
-</label>
-
+      <!-- Full Name -->
+      <mat-form-field>
+        <mat-label>Full Name</mat-label>
+        <input
+          type="text"
+          matInput
+          formControlName="fullName"
+          placeholder="Ex. Hossein Mousavi"
+        />
+        <mat-error *ngIf="registerForm.get('fullName')!.hasError('required')">
+          Full Name is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+      <br />
+      <!-- phone number -->
+      <mat-form-field>
+        <mat-label>Phone</mat-label>
+        <input type="text" matInput formControlName="phone" />
+        <mat-error *ngIf="registerForm.get('phone')!.hasError('required')">
+          Phone is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+      <br />
+      <!-- Email -->
+      <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input
+          type="email"
+          matInput
+          formControlName="email"
+          placeholder="Ex. mail@gmail.com"
+        />
+        <mat-error
+          *ngIf="
+            registerForm.get('email')?.hasError('email') &&
+            !registerForm.get('email')?.hasError('required')
+          "
+        >
+          Please enter a valid email address
+        </mat-error>
+        <mat-error *ngIf="registerForm.get('email')!.hasError('required')">
+          Email is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+      <br />
+      <!-- Password -->
+      <mat-form-field class="col-5 mb-2 mx-auto">
+        <mat-label>Password</mat-label>
+        <input type="password" matInput formControlName="password" />
+        <mat-error *ngIf="registerForm.get('password')!.hasError('required')">
+          Password is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+      <br />
+      <solu-dev-button-default1
+        color="primary"
+        type="submit"
+        textContent="Register"
+        [disabled]="!registerForm.valid"
+        [loading]="loading"
+      ></solu-dev-button-default1>
+      <br />
+      <ng-template [ngIf]="submitStatus">
+        <span>Form submitted succesfully!</span>
+      </ng-template>
+    </form>
+  </mat-card>
+</div>

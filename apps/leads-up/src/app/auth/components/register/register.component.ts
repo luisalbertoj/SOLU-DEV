@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { RegisterModel, RegisterResModel } from '@app/auth/models/register.model';
+import {
+  AbstractControl,
+  FormBuilder,
+  FormGroup,
+  Validators,
+} from '@angular/forms';
+import { RegisterResModel } from '@app/auth/models/register.model';
 import { RegisterService } from '@app/auth/services/register.service';
 
 @Component({
@@ -7,27 +13,57 @@ import { RegisterService } from '@app/auth/services/register.service';
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css'],
 })
-export class RegisterComponent  {
+export class RegisterComponent implements OnInit {
+  submitStatus = false;
+  loading = false;
+  constructor(
+    private formBuilder: FormBuilder,
+    private _registerService: RegisterService
+  ) {}
 
-  // Modelo de datos que se bindea con el html por medio del ngModel
-  public registerData: RegisterModel = {
-    name: '',
-    password: '',
-    email: '',
-  }
-  // se inyecta el servicio de registro por medio del constructor
-  constructor(private _registerService: RegisterService) {}
-
-  // metodo de registro envia los datos al servicio
-  newUser(): void {
-    // se llama al metodo create del servicio y se pasan los datos a del modelo del formulario
-    this._registerService.create(this.registerData).subscribe({
-      // manejo de la respuesta correcta del servidor
-      next: (response: RegisterResModel) => {
-        return console.log({response});
+  registerForm: FormGroup = this.formBuilder.group({
+    fullName: [null, { validators: [Validators.required], updateOn: 'change' }],
+    email: [
+      null,
+      {
+        validators: [Validators.required, Validators.email],
+        updateOn: 'change',
       },
-      // manejo de la respuesta erronea
-      error: error => console.log({error})
+    ],
+    phone: [null, { updateOn: 'change' }],
+    password: [null, { validators: [Validators.required], updateOn: 'change' }],
+  });
+
+  ngOnInit() {
+    this.setPhoneValidation();
+  }
+
+  setPhoneValidation() {
+    const phoneControl = this.registerForm.get('phone') as AbstractControl;
+
+    phoneControl.setValidators([
+      Validators.pattern('^[0-9]*$'),
+      Validators.required,
+    ]);
+  }
+
+  /**
+   * It's should create new user
+   */
+  newUser(payload?: unknown): void {
+    console.log({ payload });
+    console.log(this.registerForm.getRawValue());
+    this.submitStatus = true;
+    this.loading = true;
+    this._registerService.create(this.registerForm.getRawValue()).subscribe({
+      next: (response: RegisterResModel) => {
+        console.log({ response });
+        this.loading = false;
+      },
+      error: (error) => {
+        console.log({ error });
+        this.loading = false;
+      },
     });
   }
 }
