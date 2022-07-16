@@ -1,6 +1,7 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/api/src",
+  "root": "apps/api",
   "projectType": "application",
   "targets": {
     "build": {

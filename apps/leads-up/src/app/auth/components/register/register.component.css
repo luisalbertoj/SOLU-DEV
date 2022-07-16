@@ -1,0 +1,14 @@
+.main-div {
+  height: var(--app-height-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-div {
+  height: var(--app-height-100);
+  background-color: var(--app-color-black-1);
+  /*background-image: url('https://images.unsplash.com/photo-1508201890890-b6dec8b3fb2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80');*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

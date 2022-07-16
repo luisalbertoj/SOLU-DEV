@@ -1,5 +1,6 @@
 {
   "projectType": "application",
+  "root": "apps/leads-up",
   "sourceRoot": "apps/leads-up/src",
   "prefix": "solu-dev",
   "targets": {
@@ -13,7 +14,10 @@
         "polyfills": "apps/leads-up/src/polyfills.ts",
         "tsConfig": "apps/leads-up/tsconfig.app.json",
         "assets": ["apps/leads-up/src/favicon.ico", "apps/leads-up/src/assets"],
-        "styles": ["apps/leads-up/src/styles.css"],
+        "styles": [
+          "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+          "apps/leads-up/src/styles.css"
+        ],
         "scripts": []
       },
       "configurations": {
