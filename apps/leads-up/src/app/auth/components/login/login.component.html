@@ -1,0 +1,15 @@
+<label for="nombre">
+  Name
+  <input type="text" name="name" [(ngModel)]="loginData.name" />
+</label>
+
+<label for="email">
+  email
+  <input type="email" name="email" [(ngModel)]="loginData.email"/>
+</label>
+
+<label for="password">
+  Password
+  <input type="password" name="password" [(ngModel)]="loginData.password" />
+  <button (click)="find()">Save</button>
+</label>
