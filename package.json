@@ -7,6 +7,7 @@
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
     "start": "nx serve",
     "build": "nx build",
+    "heroku-postbuild": "nx build $PROJECT_NAME --prod",
     "test": "nx test"
   },
   "private": true,
