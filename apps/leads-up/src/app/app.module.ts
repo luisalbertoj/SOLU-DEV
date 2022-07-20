@@ -1,9 +1,6 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
 import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
@@ -16,11 +13,9 @@ import { MessagesState } from './store/chat/chat.state';
   declarations: [AppComponent],
   imports: [
     BrowserModule,
-    CommonModule,
-    HttpClientModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
-    FormsModule,
+    AppRoutingModule,
+    HttpClientModule,
     NgxsModule.forRoot([], {
       developmentMode: !environment.production,
     }),

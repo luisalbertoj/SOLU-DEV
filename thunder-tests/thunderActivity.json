@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "6e9787cb-7e49-4d48-b9a4-3912469425a3",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{api}}login",
+    "url": "{{api}}login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-07-20T01:42:19.809Z",
+    "modified": "2022-07-20T01:43:49.534Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\"username\":\"luis\", \"password\": 123}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2e8ff987-a7dd-4308-ab36-51a4888972eb",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{api}}{{auth-module}}login",
+    "url": "{{api}}{{auth-module}}login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-07-20T01:45:05.303Z",
+    "modified": "2022-07-20T02:47:08.125Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"luis\",\n  \"password\": \"123\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "4690048d-f894-4aa1-91d5-4d477a8ac402",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{api}}profile",
+    "url": "{{api}}profile",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-07-20T02:04:43.214Z",
+    "modified": "2022-07-20T02:47:19.426Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imx1aXMiLCJpYXQiOjE2NTgyODUyMjgsImV4cCI6MjAxODI4MTYyOH0.Uv6jgwVVEMSoVuaJbvMLfwbqlESiwwpZA5iXb2OWeeQ"
+    },
+    "tests": []
+  }
+]

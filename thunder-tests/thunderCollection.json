@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "7580216b-f2d3-40f5-8136-13dbd756c545",
+    "colName": "Leads-up",
+    "created": "2022-07-20T01:38:10.544Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "381af03a-f975-4e09-97b7-5288d63ef72b",
+        "name": "auth",
+        "containerId": "",
+        "created": "2022-07-20T01:40:43.486Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "4eca3ddf-4d70-4e6c-9a0b-40e23171d1e2",
+        "name": "dashboard",
+        "containerId": "",
+        "created": "2022-07-20T02:01:42.347Z",
+        "sortNum": 20000,
+        "settings": {
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "auth": {
+            "type": "bearer",
+            "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imx1aXMiLCJpYXQiOjE2NTgyODI2OTQsImV4cCI6MTY1ODI4Mjc1NH0.vpxkZE9yJ7kl0Ts4z-U0VflQ2m2dPiuc7fSTEKN671w"
+          },
+          "tests": []
+        }
+      }
+    ],
+    "settings": {
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "auth": {
+        "type": "bearer",
+        "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imx1aXMiLCJpYXQiOjE2NTgyODM4NDYsImV4cCI6MjAxODI4MDI0Nn0.G6vh252VdiJNzYnzbDYIqfHitWOn_7S-xbn06XhiM7U"
+      },
+      "tests": []
+    }
+  }
+]

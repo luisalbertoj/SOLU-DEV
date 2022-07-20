@@ -1,11 +1,7 @@
-<label for="nombre">
-  Name
-  <input type="text" name="name" [(ngModel)]="loginData.name" />
-</label>
 
 <label for="email">
-  email
-  <input type="email" name="email" [(ngModel)]="loginData.email"/>
+  username
+  <input type="email" name="email" [(ngModel)]="loginData.username" />
 </label>
 
 <label for="password">
@@ -13,8 +9,5 @@
   <input type="password" name="password" [(ngModel)]="loginData.password" />
   <button (click)="find()">Save</button>
 </label>
-<ul>
-  <li *ngFor="let message of messages | async">
-    <span>{{ message?.text | titlecase }}</span>
-  </li>
-</ul>
+
+<solu-dev-input-default1></solu-dev-input-default1>
