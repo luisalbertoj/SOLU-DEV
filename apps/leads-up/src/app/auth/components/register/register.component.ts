@@ -5,7 +5,7 @@ import {
   FormGroup,
   Validators,
 } from '@angular/forms';
-import { RegisterResModel } from '@app/auth/models/register.model';
+import { CreateModel, RegisterResModel } from '@app/auth/models/create.model';
 import { RegisterService } from '@app/auth/services/register.service';
 
 @Component({
@@ -55,7 +55,7 @@ export class RegisterComponent implements OnInit {
     console.log(this.registerForm.getRawValue());
     this.submitStatus = true;
     this.loading = true;
-    this._registerService.create(this.registerForm.getRawValue()).subscribe({
+    this._registerService.create(this.registerForm.getRawValue() as CreateModel).subscribe({
       next: (response: RegisterResModel) => {
         console.log({ response });
         this.loading = false;

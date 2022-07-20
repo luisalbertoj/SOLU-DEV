@@ -1,0 +1,39 @@
+[
+  {
+    "_id": "d3bdbe51-f159-4b1a-92c2-e5ed464c0c85",
+    "colId": "7580216b-f2d3-40f5-8136-13dbd756c545",
+    "containerId": "381af03a-f975-4e09-97b7-5288d63ef72b",
+    "name": "login-user",
+    "url": "{{api}}{{auth-module}}login",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-07-20T01:40:55.332Z",
+    "modified": "2022-07-20T01:45:30.440Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"luis\",\n  \"password\": \"123\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "d7cd5fdf-f09a-42ff-802a-3f43d971d4c2",
+    "colId": "7580216b-f2d3-40f5-8136-13dbd756c545",
+    "containerId": "4eca3ddf-4d70-4e6c-9a0b-40e23171d1e2",
+    "name": "home",
+    "url": "{{api}}profile",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-07-20T02:02:23.706Z",
+    "modified": "2022-07-20T02:47:19.424Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imx1aXMiLCJpYXQiOjE2NTgyODUyMjgsImV4cCI6MjAxODI4MTYyOH0.Uv6jgwVVEMSoVuaJbvMLfwbqlESiwwpZA5iXb2OWeeQ"
+    },
+    "tests": []
+  }
+]

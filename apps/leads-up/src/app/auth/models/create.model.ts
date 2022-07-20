@@ -1,16 +1,19 @@
 import { User } from '@solu-dev/api-interfaces';
-
-export class LoginModel
-  implements Omit<User, 'id' | 'email' | 'name' | 'lastname'>
-{
+export class CreateModel implements Omit<User, 'id'> {
   username: string;
   password: string;
+  email: string;
+  name: string;
+  lastname: string;
   constructor() {
     this.username = '';
     this.password = '';
+    this.email = '';
+    this.name = '';
+    this.lastname = '';
   }
 }
-export interface LoginResModel {
+export interface RegisterResModel {
   code: number;
   status: boolean;
   message?: string;

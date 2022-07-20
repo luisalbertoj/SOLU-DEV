@@ -2,17 +2,20 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from '@src/environments/environment';
 import { Observable } from 'rxjs';
-import { RegisterModel, RegisterResModel } from '../models/register.model';
+import { CreateModel, RegisterResModel } from '../models/create.model';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class RegisterService {
   private env = environment;
   // Se inyecta el modulo de protocolo http para generar peticiones get put etc...
-  constructor(private _httpClient: HttpClient) { }
+  constructor(private _httpClient: HttpClient) {}
 
-  create(newUser: RegisterModel): Observable<RegisterResModel> {
-    return this._httpClient.post<RegisterResModel>(this.env.apiRoute + 'newUser', newUser);
+  create(newUser: CreateModel): Observable<RegisterResModel> {
+    return this._httpClient.post<RegisterResModel>(
+      this.env.apiRoute + 'newUser',
+      newUser
+    );
   }
 }

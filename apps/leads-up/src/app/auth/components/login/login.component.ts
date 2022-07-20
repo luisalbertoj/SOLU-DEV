@@ -10,13 +10,10 @@ import { Observable } from 'rxjs';
   styleUrls: ['./login.component.css'],
 })
 export class LoginComponent {
-  public loginData: LoginModel = {
-    name: '',
-    password: '',
-    email: '',
-  };
+  public loginData: LoginModel;
   messages: Observable<any>;
   constructor(private _loginService: LoginService, private _store: Store) {
+    this.loginData = new LoginModel();
     this.messages = this._store.select((state) => state.messages.messages);
   }
 
