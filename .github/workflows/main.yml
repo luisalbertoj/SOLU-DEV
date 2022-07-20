@@ -1,18 +1,22 @@
-name: CI Angular app through Github Actions
-on: push
+name: CI
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
 jobs:
-  build:
+  main:
     runs-on: ubuntu-latest
     steps:
-      ‐ uses: actions/checkout@v2
-      ‐ name: Use Node.js 14.x
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
         with:
-          node-version: 14.x
+          fetch-depth: 0
+      - uses: nrwl/nx-set-shas@v2
+      - run: npm ci
 
-      ‐ name: Setup
-        run: npm ci
-
-      ‐ name: Test
-        run: |
-          npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
+      - run: npx nx workspace-lint
+      - run: npx nx format:check
+      - run: npx nx affected --target=lint --parallel=3
+      - run: npx nx affected --target=test --parallel=3 --ci --code-coverage
+      - run: npx nx affected --target=build --parallel=3
