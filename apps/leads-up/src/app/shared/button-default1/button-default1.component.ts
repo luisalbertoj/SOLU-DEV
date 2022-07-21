@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { ButtonDefault1Configuration } from './button-default.config';
 
@@ -11,13 +11,8 @@ import { ButtonDefault1Configuration } from './button-default.config';
   styleUrls: ['./button-default1.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ButtonDefault1Component
-  extends ButtonDefault1Configuration
-  implements OnInit
-{
+export class ButtonDefault1Component extends ButtonDefault1Configuration {
   constructor() {
     super();
   }
-
-  ngOnInit(): void {}
 }

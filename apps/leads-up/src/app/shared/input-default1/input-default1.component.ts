@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { InputTextModule } from 'primeng/inputtext';
 
 @Component({
@@ -9,8 +9,4 @@ import { InputTextModule } from 'primeng/inputtext';
   templateUrl: './input-default1.component.html',
   styleUrls: ['./input-default1.component.css'],
 })
-export class InputDefault1Component implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
-}
+export class InputDefault1Component {}
