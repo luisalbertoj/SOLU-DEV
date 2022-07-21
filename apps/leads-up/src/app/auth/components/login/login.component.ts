@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { LoginModel, LoginResModel } from '@app/auth/models/login.model';
-import { LoginService } from '@app/auth/services/login.service';
 import { Store } from '@ngxs/store';
 import { Observable } from 'rxjs';
+import { LoginModel, LoginResModel } from '../../models/login.model';
+import { LoginService } from '../../services/login.service';
 
 @Component({
   selector: 'solu-dev-login',
@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 })
 export class LoginComponent {
   public loginData: LoginModel;
-  messages: Observable<any>;
+  messages: Observable<unknown>;
   constructor(private _loginService: LoginService, private _store: Store) {
     this.loginData = new LoginModel();
     this.messages = this._store.select((state) => state.messages.messages);

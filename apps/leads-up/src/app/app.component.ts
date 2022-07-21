@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 import { Store } from '@ngxs/store';
-import { Observable } from 'rxjs';
 import { AddMessage } from './store/chat/chat.actions';
-import { Message, MessagesModel } from './store/chat/chat.model';
+import { Message } from './store/chat/chat.model';
 
 @Component({
   selector: 'solu-dev-root',
@@ -11,8 +10,7 @@ import { Message, MessagesModel } from './store/chat/chat.model';
 })
 export class AppComponent {
   message: Message = {} as Message;
-  constructor(private _store: Store) {
-  }
+  constructor(private _store: Store) {}
 
   sendMessage() {
     this.message.id = this.getRndInteger(1, 100);
