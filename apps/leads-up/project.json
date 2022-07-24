@@ -5,25 +5,20 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/apps/leads-up",
         "index": "apps/leads-up/src/index.html",
         "main": "apps/leads-up/src/main.ts",
         "polyfills": "apps/leads-up/src/polyfills.ts",
         "tsConfig": "apps/leads-up/tsconfig.app.json",
-        "assets": [
-          "apps/leads-up/src/favicon.ico",
-          "apps/leads-up/src/assets"
-        ],
+        "assets": ["apps/leads-up/src/favicon.ico", "apps/leads-up/src/assets"],
         "styles": [
-          "apps/leads-up/src/styles.scss",
-          "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
           "node_modules/primeng/resources/primeng.min.css",
+          "node_modules/primeflex/primeflex.css",
           "node_modules/primeicons/primeicons.css",
-          "node_modules/primeflex/primeflex.css"
+          "node_modules/prismjs/themes/prism-coy.css",
+          "apps/leads-up/src/styles.scss"
         ],
         "scripts": []
       },
@@ -84,17 +79,12 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": [
-          "apps/leads-up/**/*.ts",
-          "apps/leads-up/**/*.html"
-        ]
+        "lintFilePatterns": ["apps/leads-up/**/*.ts", "apps/leads-up/**/*.html"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": [
-        "coverage/apps/leads-up"
-      ],
+      "outputs": ["coverage/apps/leads-up"],
       "options": {
         "jestConfig": "apps/leads-up/jest.config.ts",
         "passWithNoTests": true
