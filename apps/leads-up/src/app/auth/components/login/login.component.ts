@@ -1,28 +1,38 @@
-import { Component } from '@angular/core';
-import { LoginModel, LoginResModel } from '@app/auth/models/login.model';
-import { LoginService } from '@app/auth/services/login.service';
-import { Store } from '@ngxs/store';
-import { Observable } from 'rxjs';
+import { CommonModule } from '@angular/common';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { finalize } from 'rxjs';
+import { ButtonOneComponent } from '../../../shared/button-one/button-one.component';
+import { InputTextOneComponent } from '../../../shared/input-text-one/input-text-one.component';
+import { LoginModel } from '../../models/login.model';
+import { LoginService } from '../../services/login.service';
 
 @Component({
   selector: 'solu-dev-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
+  imports: [CommonModule, InputTextOneComponent, ButtonOneComponent],
+  standalone: true,
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LoginComponent {
   public loginData: LoginModel;
-  messages: Observable<any>;
-  constructor(private _loginService: LoginService, private _store: Store) {
+  public isLoading: boolean;
+  constructor(private _loginService: LoginService, private _router: Router) {
     this.loginData = new LoginModel();
-    this.messages = this._store.select((state) => state.messages.messages);
+    this.isLoading = false;
   }
 
-  find(): void {
-    this._loginService.find(this.loginData).subscribe({
-      next: (response: LoginResModel) => {
-        return console.log({ response });
-      },
-      error: (error) => console.log({ error }),
+  handleLogin() {
+    this.isLoading = true;
+    if (!this.loginData.password || !this.loginData.username) {
+      return console.log('Datos no validos');
+    }
+    this._loginService.login('auth/login', this.loginData).pipe(finalize(()=>this.isLoading = false)).subscribe({
+      next: ({ access_token }: any) =>
+        localStorage.setItem('auth_token', access_token),
+      error: (err) => console.log({ err }),
+      complete: () => this._router.navigate(['/'], { replaceUrl: true }),
     });
   }
 }

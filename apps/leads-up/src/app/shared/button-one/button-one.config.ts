@@ -1,7 +1,7 @@
 import { Directive, EventEmitter, Input, Output } from '@angular/core';
 
 @Directive()
-export class ButtonDefault1Configuration {
+export class ButtonOneConfig {
   /**
    * Name of button
    */
@@ -18,7 +18,7 @@ export class ButtonDefault1Configuration {
    * Text of button
    *
    */
-  @Input() textContent?: string = '';
+  @Input() textContent!: string;
 
   /**
    * Type of button
@@ -46,8 +46,8 @@ export class ButtonDefault1Configuration {
   /**
    * Event click of button
    */
-  @Input() handlerClickButton = () => {
-    this.clickButton.emit({ button: this.key, color: this.color });
+  @Input() handleClick = ($event: unknown) => {
+    this.clickButton.emit({ button: this.key, color: this.color, $event });
     console.log(`Button ${this.key} is clicked`);
   };
 }

@@ -1,17 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import {
   AbstractControl,
   FormBuilder,
   FormGroup,
-  Validators,
+  Validators
 } from '@angular/forms';
-import { CreateModel, RegisterResModel } from '@app/auth/models/create.model';
-import { RegisterService } from '@app/auth/services/register.service';
+import { CreateModel, RegisterResModel } from '../../../auth/models/create.model';
+import { RegisterService } from '../../../auth/services/register.service';
 
 @Component({
   selector: 'solu-dev-register',
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css'],
+  standalone: true,
+  imports: [CommonModule],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class RegisterComponent implements OnInit {
   submitStatus = false;
@@ -60,7 +64,7 @@ export class RegisterComponent implements OnInit {
         console.log({ response });
         this.loading = false;
       },
-      error: (error) => {
+      error: (error: unknown) => {
         console.log({ error });
         this.loading = false;
       },
