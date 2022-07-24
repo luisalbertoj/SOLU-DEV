@@ -1,0 +1,8 @@
+<button
+  pButton
+  [type]="type"
+  [label]="textContent"
+  (click)="handleClick($event)"
+  [class.spinner]="loading"
+  [disabled]="disabled || loading"
+></button>
