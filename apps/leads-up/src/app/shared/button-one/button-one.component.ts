@@ -8,7 +8,7 @@ import { ButtonOneConfig } from './button-one.config';
   standalone: true,
   imports: [CommonModule, ButtonModule],
   templateUrl: './button-one.component.html',
-  styleUrls: ['./button-one.component.css'],
+  styleUrls: ['./button-one.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ButtonOneComponent extends ButtonOneConfig {}

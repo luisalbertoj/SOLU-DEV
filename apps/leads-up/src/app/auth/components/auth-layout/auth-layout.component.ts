@@ -4,7 +4,7 @@ import { MenuItem } from 'primeng/api';
 @Component({
   selector: 'solu-dev-auth-layout',
   templateUrl: './auth-layout.component.html',
-  styleUrls: ['./auth-layout.component.css'],
+  styleUrls: ['./auth-layout.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AuthLayoutComponent {

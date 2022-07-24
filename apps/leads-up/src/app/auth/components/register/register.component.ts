@@ -4,15 +4,18 @@ import {
   AbstractControl,
   FormBuilder,
   FormGroup,
-  Validators
+  Validators,
 } from '@angular/forms';
-import { CreateModel, RegisterResModel } from '../../../auth/models/create.model';
+import {
+  CreateModel,
+  RegisterResModel,
+} from '../../../auth/models/create.model';
 import { RegisterService } from '../../../auth/services/register.service';
 
 @Component({
   selector: 'solu-dev-register',
   templateUrl: './register.component.html',
-  styleUrls: ['./register.component.css'],
+  styleUrls: ['./register.component.scss'],
   standalone: true,
   imports: [CommonModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -59,15 +62,17 @@ export class RegisterComponent implements OnInit {
     console.log(this.registerForm.getRawValue());
     this.submitStatus = true;
     this.loading = true;
-    this._registerService.create(this.registerForm.getRawValue() as CreateModel).subscribe({
-      next: (response: RegisterResModel) => {
-        console.log({ response });
-        this.loading = false;
-      },
-      error: (error: unknown) => {
-        console.log({ error });
-        this.loading = false;
-      },
-    });
+    this._registerService
+      .create(this.registerForm.getRawValue() as CreateModel)
+      .subscribe({
+        next: (response: RegisterResModel) => {
+          console.log({ response });
+          this.loading = false;
+        },
+        error: (error) => {
+          console.log({ error });
+          this.loading = false;
+        },
+      });
   }
 }

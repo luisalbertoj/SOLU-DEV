@@ -10,7 +10,7 @@ import { LoginService } from '../../services/login.service';
 @Component({
   selector: 'solu-dev-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css'],
+  styleUrls: ['./login.component.scss'],
   imports: [CommonModule, InputTextOneComponent, ButtonOneComponent],
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,

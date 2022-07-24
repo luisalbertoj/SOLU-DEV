@@ -9,7 +9,7 @@ import { InputTextOneConfig } from './input-text-one.config';
   standalone: true,
   imports: [CommonModule, InputTextModule, FormsModule],
   templateUrl: './input-text-one.component.html',
-  styleUrls: ['./input-text-one.component.css'],
+  styleUrls: ['./input-text-one.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class InputTextOneComponent extends InputTextOneConfig {}

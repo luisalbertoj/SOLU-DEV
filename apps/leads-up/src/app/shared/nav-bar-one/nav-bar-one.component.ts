@@ -8,7 +8,7 @@ import { NabBarOneConfig } from './nav-bar-one.config';
   standalone: true,
   imports: [CommonModule, MenubarModule],
   templateUrl: './nav-bar-one.component.html',
-  styleUrls: ['./nav-bar-one.component.css'],
+  styleUrls: ['./nav-bar-one.component.scss'],
 })
 export class NavBarOneComponent extends NabBarOneConfig {
   constructor() {
