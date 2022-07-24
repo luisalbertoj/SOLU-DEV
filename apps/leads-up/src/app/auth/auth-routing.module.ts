@@ -8,14 +8,6 @@ const routes: Routes = [
     component: AuthLayoutComponent,
     children: [
       {
-        path: 'register',
-        title: 'Register',
-        loadComponent: () =>
-          import('./components/register/register.component').then(
-            (m) => m.RegisterComponent
-          ),
-      },
-      {
         path: 'login',
         title: 'Login',
         loadComponent: () =>
@@ -23,10 +15,11 @@ const routes: Routes = [
             (m) => m.LoginComponent
           ),
       },
-      { path: '**', redirectTo: '/auth/login', pathMatch: 'full' },
+      //{ path: '', redirectTo: '/auth/login', pathMatch: 'full' },
+      //{ path: '**', redirectTo: '/auth/login', pathMatch: 'full' },
     ],
   },
-  { path: '**', redirectTo: '', pathMatch: 'full' },
+  //{ path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
 @NgModule({
