@@ -1,0 +1,11 @@
+{
+  "root": "dist/apps/leads-up/",
+  "routes": {
+    "/**/*.html": "index.html"
+  },
+  "proxies": {
+    "/api/": {
+      "origin": "https://leads-up-api.herokuapp.com/api/"
+    }
+  }
+}

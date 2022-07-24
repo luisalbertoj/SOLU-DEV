@@ -28,11 +28,14 @@ export class LoginComponent {
     if (!this.loginData.password || !this.loginData.username) {
       return console.log('Datos no validos');
     }
-    this._loginService.login('auth/login', this.loginData).pipe(finalize(()=>this.isLoading = false)).subscribe({
-      next: ({ access_token }: any) =>
-        localStorage.setItem('auth_token', access_token),
-      error: (err) => console.log({ err }),
-      complete: () => this._router.navigate(['/'], { replaceUrl: true }),
-    });
+    this._loginService
+      .login('auth/login', this.loginData)
+      .pipe(finalize(() => (this.isLoading = false)))
+      .subscribe({
+        next: ({ access_token }: any) =>
+          localStorage.setItem('auth_token', access_token),
+        error: (err) => console.log({ err }),
+        complete: () => this._router.navigate(['/'], { replaceUrl: true }),
+      });
   }
 }
