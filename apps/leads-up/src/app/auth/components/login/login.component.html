@@ -1,13 +1,13 @@
+<h1>login</h1>
+<solu-dev-input-text-one
+  [(model)]="loginData.username"
+></solu-dev-input-text-one>
+<solu-dev-input-text-one
+  [(model)]="loginData.password"
+></solu-dev-input-text-one>
 
-<label for="email">
-  username
-  <input type="email" name="email" [(ngModel)]="loginData.username" />
-</label>
-
-<label for="password">
-  Password
-  <input type="password" name="password" [(ngModel)]="loginData.password" />
-  <button (click)="find()">Save</button>
-</label>
-
-<solu-dev-input-default1></solu-dev-input-default1>
+<solu-dev-button-one
+  type="button"
+  textContent="Login"
+  (clickButton)="handleLogin()"
+></solu-dev-button-one>
