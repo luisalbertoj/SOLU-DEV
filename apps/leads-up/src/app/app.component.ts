@@ -7,7 +7,7 @@ import { Message, MessagesModel } from './store/chat/chat.model';
 @Component({
   selector: 'solu-dev-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   message: Message = {} as Message;
