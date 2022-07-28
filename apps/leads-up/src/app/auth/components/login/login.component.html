@@ -29,36 +29,45 @@
           class="login-appname"
         />
       </div>
-      <div class="form-container">
-        <span class="p-input-icon-left">
-          <i class="pi pi-user"></i>
-          <solu-dev-input-text-one
-            type="text"
-            autocomplete="off"
-            placeholder="Username"
-            [(model)]="loginData.username"
-            class="p-input-icon-left"
-          ></solu-dev-input-text-one>
-        </span>
-        <span class="p-input-icon-left">
-          <i class="pi pi-key"></i>
-          <solu-dev-input-text-one
-            type="password"
-            autocomplete="off"
-            placeholder="Password"
-            [(model)]="loginData.password"
-            class="p-input-icon-left"
-          ></solu-dev-input-text-one>
-        </span>
-        <a class="flex">Forgot your password?</a>
-      </div>
-      <div class="button-container">
-        <solu-dev-button-one
-          type="button"
-          textContent="Login"
-          (clickButton)="handleLogin()"
-        ></solu-dev-button-one>
-      </div>
+      <form (ngSubmit)="handleLogin($event)">
+        <div class="form-container">
+          <span class="p-input-icon-left">
+            <i class="pi pi-user"></i>
+            <solu-dev-input-text-one
+              type="text"
+              autocomplete="off"
+              placeholder="Username"
+              name="username"
+              [required]="true"
+              [(model)]="loginData.username"
+              [autofocus]="true"
+              class="p-input-icon-left"
+            ></solu-dev-input-text-one>
+          </span>
+          <span class="p-input-icon-left">
+            <i class="pi pi-key"></i>
+            <solu-dev-input-text-one
+              type="password"
+              autocomplete="off"
+              name="password"
+              [required]="true"
+              placeholder="Password"
+              [(model)]="loginData.password"
+              class="p-input-icon-left"
+            ></solu-dev-input-text-one>
+          </span>
+          <a class="flex">Forgot your password?</a>
+        </div>
+        <div class="button-container">
+          <solu-dev-button-one
+            type="submit"
+            textContent="Login"
+            (clickButton)="handleLogin()"
+            [loading]="isLoading$ | async"
+            [disabled]="btnIsDisabled"
+          ></solu-dev-button-one>
+        </div>
+      </form>
     </div>
 
     <div class="login-footer flex align-items-center">

@@ -8,7 +8,7 @@ const routes: Routes = [
     component: AuthLayoutComponent,
     children: [
       {
-        path: 'login',
+        path: '',
         title: 'Login',
         loadComponent: () =>
           import('./components/login/login.component').then(

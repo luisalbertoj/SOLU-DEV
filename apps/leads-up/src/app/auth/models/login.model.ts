@@ -11,7 +11,5 @@ export class LoginModel
   }
 }
 export interface LoginResModel {
-  code: number;
-  status: boolean;
-  message?: string;
+  access_token: string;
 }

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 // Atento a esta línea, deberás hacer que empate con tu environment
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { environment } from '../../environments/environment';
+import { environment } from '../../../environments/environment';
 
 import { Observable } from 'rxjs';
 
