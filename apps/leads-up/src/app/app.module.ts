@@ -1,3 +1,4 @@
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -54,6 +55,7 @@ export function servicesOnRun(config: AppConfig, token: TokenProvider) {
       provide: TitleStrategy,
       useClass: PageTitleStrategy,
     },
+    {provide: LocationStrategy, useClass: HashLocationStrategy},
     ToastService,
     MessageService,
   ],
