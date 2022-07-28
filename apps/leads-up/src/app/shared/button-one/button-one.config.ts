@@ -36,7 +36,7 @@ export class ButtonOneConfig {
    * Button is load
    *
    */
-  @Input() loading?: boolean;
+  @Input() loading?: boolean | null;
 
   /**
    * Event output of button

@@ -1,28 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import { PrimeNGConfig } from 'primeng/api';
+import { Component } from '@angular/core';
+import { ThemeConfig } from './theme.config';
 
 @Component({
   selector: 'solu-dev-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  template: `<router-outlet></router-outlet>
+    <solu-dev-toast></solu-dev-toast> `,
 })
-export class AppComponent implements OnInit {
-  menuMode = 'sidebar';
-
-  layout = 'blue';
-
-  theme = 'blue';
-
-  ripple: boolean;
-
-  colorScheme = 'dark';
-
-  constructor(private primengConfig: PrimeNGConfig) {
-    this.ripple = true;
-  }
-
-  ngOnInit() {
-    this.primengConfig.ripple = true;
-    this.ripple = true;
-  }
-}
+export class AppComponent extends ThemeConfig {}

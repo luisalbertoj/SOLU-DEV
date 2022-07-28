@@ -5,4 +5,9 @@
   [placeholder]="placeholder"
   [(ngModel)]="model"
   (ngModelChange)="modelChangeData($event)"
+  [ngClass]="'ng-dirty ng-invalid'"
+  [required]="required"
+  [name]="name"
+  [autofocus]="autofocus"
+  autofocus
 />
