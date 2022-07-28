@@ -5,6 +5,7 @@
     "esbenp.prettier-vscode",
     "firsttris.vscode-jest-runner",
     "dbaeumer.vscode-eslint",
-    "rangav.vscode-thunder-client"
+    "rangav.vscode-thunder-client",
+    "GitHub.vscode-pull-request-github"
   ]
 }
