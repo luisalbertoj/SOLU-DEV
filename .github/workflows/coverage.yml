@@ -1,0 +1,37 @@
+name: NX Code Coverage
+  # You may pin to the exact commit or the version.
+  # uses: dkhunt27/action-nx-code-coverage@d812538498962f9fc22ef4e7eb66ca645230f738
+uses: dkhunt27/action-nx-code-coverage@v0.9.0
+  with: 
+    # Github token
+    github-token: 
+    # true/false (default false) if no coverage was ran; useful if using nx affected and it returned no projects
+    no-coverage-ran: 
+    # path to folder containing project folders with coverage data (default 'coverage')
+    coverage-folder: # optional
+    # path to folder containing project folders with coverage data for diff/base comparison (default 'coverage-base')
+    coverage-base-folder: # optional
+    # Your secret with the gist scope for coverage badge
+    gist-token: 
+    # The ID of the gist to use
+    gist-id: 
+    # The left color of the badge
+    label-color: # optional
+    # The right color of the badge
+    color: # optional
+    # The color will be red and cannot be overridden
+    is-error: # optional
+    # A logo name from simpleicons.org
+    named-logo: # optional
+    # An svg-string to be used as logo
+    logo-svg: # optional
+    # The color for the logo
+    logo-color: # optional
+    # The space allocated for the logo
+    logo-width: # optional
+    # The position of the logo
+    logo-position: # optional
+    # The style like "flat" or "social"
+    style: # optional
+    # The cache lifetime in seconds (must be greater than 300)
+    cache-seconds: # optional
