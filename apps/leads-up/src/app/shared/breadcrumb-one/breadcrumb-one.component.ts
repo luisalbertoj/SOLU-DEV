@@ -15,7 +15,6 @@ import { BreadcrumbService } from './services/breadcrumb.service';
   standalone: true,
   imports: [CommonModule, BreadcrumbModule, FormsModule, InputTextModule, ButtonModule, RippleModule],
   templateUrl: './breadcrumb-one.component.html',
-  styleUrls: ['./breadcrumb-one.component.css'],
   providers: [BreadcrumbService],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

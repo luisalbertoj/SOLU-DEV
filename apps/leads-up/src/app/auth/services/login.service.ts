@@ -7,7 +7,10 @@ import { LoginModel, LoginResModel } from '../models/login.model';
   providedIn: 'root',
 })
 export class LoginService extends ApiHttpService {
-  login(url: string, payload: LoginModel): Observable<LoginResModel> {
-    return this.post({ url, payload }) as Observable<LoginResModel>;
+  login(payload: LoginModel): Observable<LoginResModel> {
+    return this.post({
+      url: 'auth/login',
+      payload,
+    }) as Observable<LoginResModel>;
   }
 }

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFoundComponent this should be equal to the snapshot 1`] = `"<div class=\\"exception-body notfound\\"><div class=\\"exception-panel\\"><h1>404</h1><h3>not found</h3><p>The page that you are looking for does not exist</p><button type=\\"button\\" pbutton=\\"\\" label=\\"Go back to home\\" class=\\"p-element p-button p-component\\" tabindex=\\"0\\" ng-reflect-label=\\"Go back to home\\" ng-reflect-router-link=\\"/\\"><span class=\\"p-button-label\\">Go back to home</span></button></div><div class=\\"exception-footer\\"><img class=\\"exception-logo\\" src=\\"assets/layout/images/logo-light.png\\"><img class=\\"exception-appname\\" src=\\"assets/layout/images/appname-light.png\\"></div></div>"`;

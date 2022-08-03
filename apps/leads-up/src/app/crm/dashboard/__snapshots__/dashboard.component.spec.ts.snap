@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardComponent this should be equal to the snapshot 1`] = `
+"<solu-dev-dashboard-menu-one><div class=\\"layout-wrapper layout-sidebar\\" ng-reflect-ng-class=\\"[object Object]\\"><div class=\\"layout-main\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><solu-dev-menu-one class=\\"ng-star-inserted\\"><div class=\\"layout-menu-wrapper\\" ng-reflect-ng-class=\\"[object Object]\\"><div class=\\"menu-logo ng-star-inserted\\"><a href=\\"#\\" class=\\"logo\\"><img src=\\"assets/layout/images/logo-light.png\\"></a><a href=\\"#\\" class=\\"app-name ng-star-inserted\\"><img src=\\"assets/layout/images/appname-light.png\\"></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a href=\\"#\\" class=\\"menu-pin\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--bindings={}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><div class=\\"layout-menu-container\\"><ul class=\\"layout-menu\\"><li solu-dev-menu-item=\\"\\" class=\\"ng-tns-c65-2 layout-root-menuitem ng-star-inserted\\" ng-reflect-item=\\"[object Object]\\" ng-reflect-index=\\"0\\" ng-reflect-root=\\"true\\"><div class=\\"layout-menuitem-root-text ng-tns-c65-2 ng-star-inserted\\"> Favorites </div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c65-2 ng-star-inserted\\" tabindex=\\"0\\"><i class=\\"layout-menuitem-icon ng-tns-c65-2 pi pi-home\\" ng-reflect-ng-class=\\"pi pi-home\\"></i><span class=\\"layout-menuitem-text ng-tns-c65-2\\">Favorites</span><i class=\\"pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c65-2 ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"[object Object]\\"
+}--><!--bindings={}--><span class=\\"p-ink\\"></span></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--ng-container--></li><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--ng-container--><li solu-dev-menu-item=\\"\\" class=\\"ng-tns-c65-3 layout-root-menuitem ng-star-inserted\\" ng-reflect-item=\\"[object Object]\\" ng-reflect-index=\\"1\\" ng-reflect-root=\\"true\\"><div class=\\"layout-menuitem-root-text ng-tns-c65-3 ng-star-inserted\\"> UI Kit </div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c65-3 ng-star-inserted\\" tabindex=\\"0\\"><i class=\\"layout-menuitem-icon ng-tns-c65-3 pi pi-fw pi-star\\" ng-reflect-ng-class=\\"pi pi-fw pi-star\\"></i><span class=\\"layout-menuitem-text ng-tns-c65-3\\">UI Kit</span><i class=\\"pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c65-3 ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"[object Object],[object Object\\"
+}--><!--bindings={}--><span class=\\"p-ink\\"></span></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--ng-container--></li><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--ng-container--><li solu-dev-menu-item=\\"\\" class=\\"ng-tns-c65-4 layout-root-menuitem ng-star-inserted\\" ng-reflect-item=\\"[object Object]\\" ng-reflect-index=\\"2\\" ng-reflect-root=\\"true\\"><div class=\\"layout-menuitem-root-text ng-tns-c65-4 ng-star-inserted\\"> Utilities </div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c65-4 ng-star-inserted\\" tabindex=\\"0\\"><i class=\\"layout-menuitem-icon ng-tns-c65-4 pi pi-fw pi-compass\\" ng-reflect-ng-class=\\"pi pi-fw pi-compass\\"></i><span class=\\"layout-menuitem-text ng-tns-c65-4\\">Utilities</span><i class=\\"pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c65-4 ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"[object Object],[object Object\\"
+}--><!--bindings={}--><span class=\\"p-ink\\"></span></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--ng-container--></li><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--ng-container--><li solu-dev-menu-item=\\"\\" class=\\"ng-tns-c65-5 layout-root-menuitem ng-star-inserted\\" ng-reflect-item=\\"[object Object]\\" ng-reflect-index=\\"3\\" ng-reflect-root=\\"true\\"><div class=\\"layout-menuitem-root-text ng-tns-c65-5 ng-star-inserted\\"> Pages </div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c65-5 ng-star-inserted\\" tabindex=\\"0\\"><i class=\\"layout-menuitem-icon ng-tns-c65-5 pi pi-fw pi-briefcase\\" ng-reflect-ng-class=\\"pi pi-fw pi-briefcase\\"></i><span class=\\"layout-menuitem-text ng-tns-c65-5\\">Pages</span><i class=\\"pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c65-5 ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"[object Object],[object Object\\"
+}--><!--bindings={}--><span class=\\"p-ink\\"></span></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--ng-container--></li><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--ng-container--><li solu-dev-menu-item=\\"\\" class=\\"ng-tns-c65-6 layout-root-menuitem ng-star-inserted\\" ng-reflect-item=\\"[object Object]\\" ng-reflect-index=\\"4\\" ng-reflect-root=\\"true\\"><div class=\\"layout-menuitem-root-text ng-tns-c65-6 ng-star-inserted\\"> Hierarchy </div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c65-6 ng-star-inserted\\" tabindex=\\"0\\"><i class=\\"layout-menuitem-icon ng-tns-c65-6 pi pi-fw pi-align-left\\" ng-reflect-ng-class=\\"pi pi-fw pi-align-left\\"></i><span class=\\"layout-menuitem-text ng-tns-c65-6\\">Hierarchy</span><i class=\\"pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c65-6 ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"[object Object],[object Object\\"
+}--><!--bindings={}--><span class=\\"p-ink\\"></span></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--ng-container--></li><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--ng-container--><li solu-dev-menu-item=\\"\\" class=\\"ng-tns-c65-7 layout-root-menuitem ng-star-inserted\\" ng-reflect-item=\\"[object Object]\\" ng-reflect-index=\\"5\\" ng-reflect-root=\\"true\\"><div class=\\"layout-menuitem-root-text ng-tns-c65-7 ng-star-inserted\\"> Start </div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c65-7 ng-star-inserted\\" tabindex=\\"0\\"><i class=\\"layout-menuitem-icon ng-tns-c65-7 pi pi-fw pi-download\\" ng-reflect-ng-class=\\"pi pi-fw pi-download\\"></i><span class=\\"layout-menuitem-text ng-tns-c65-7\\">Start</span><i class=\\"pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c65-7 ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"[object Object],[object Object\\"
+}--><!--bindings={}--><span class=\\"p-ink\\"></span></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--ng-container--></li><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"[object Object],[object Object\\"
+}--></ul></div><solu-dev-inline-menu-one class=\\"ng-tns-c66-1 ng-star-inserted\\"><div class=\\"ng-tns-c66-1 layout-inline-menu ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><a class=\\"layout-inline-menu-action ng-tns-c66-1\\"><img src=\\"assets/layout/images/profile-image.png\\" alt=\\"avatar\\" style=\\"width: 44px; height: 44px;\\" class=\\"ng-tns-c66-1\\"><span class=\\"layout-inline-menu-text ng-tns-c66-1\\">User Test</span><i class=\\"layout-inline-menu-icon pi pi-angle-down ng-tns-c66-1\\"></i></a><ul class=\\"layout-inline-menu-action-panel ng-tns-c66-1 ng-trigger ng-trigger-inline\\" style=\\"height:0px;overflow:hidden;0:height;1:overflow;\\"><li class=\\"layout-inline-menu-action-item ng-tns-c66-1\\"><a routerlinkactive=\\"router-link-active\\" class=\\"ng-tns-c66-1\\" ng-reflect-router-link-active=\\"router-link-active\\" ng-reflect-router-link=\\"/logout\\" href=\\"/logout\\"><i class=\\"pi pi-power-off pi-fw ng-tns-c66-1\\"></i><span class=\\"ng-tns-c66-1\\">Logout</span></a></li><li class=\\"layout-inline-menu-action-item ng-tns-c66-1\\"><a class=\\"ng-tns-c66-1\\"><i class=\\"pi pi-cog pi-fw ng-tns-c66-1\\"></i><span class=\\"ng-tns-c66-1\\">Settings</span></a></li><li class=\\"layout-inline-menu-action-item ng-tns-c66-1\\"><a class=\\"ng-tns-c66-1\\"><i class=\\"pi pi-user pi-fw ng-tns-c66-1\\"></i><span class=\\"ng-tns-c66-1\\">Profile</span></a></li></ul></div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></solu-dev-inline-menu-one></div></solu-dev-menu-one><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><solu-dev-breadcrumb-one><div class=\\"layout-breadcrumb-container\\"><div class=\\"layout-breadcrumb-left-items\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><p-breadcrumb styleclass=\\"layout-breadcrumb py-2\\" class=\\"p-element\\" ng-reflect-style-class=\\"layout-breadcrumb py-2\\"><div class=\\"layout-breadcrumb py-2 p-breadcrumb p-component\\" ng-reflect-ng-class=\\"p-breadcrumb p-component\\"><ul><!--bindings={}--><!--bindings={}--><!--bindings={}--></ul></div></p-breadcrumb></div><div class=\\"layout-breadcrumb-right-items\\"><a tabindex=\\"0\\" class=\\"search-icon\\"><i class=\\"pi pi-search\\"></i></a><div class=\\"search-wrapper\\" ng-reflect-ng-class=\\"[object Object]\\"><span class=\\"p-input-icon-left\\"><i class=\\"pi pi-search\\"></i><input type=\\"text\\" pinputtext=\\"\\" placeholder=\\"Search...\\" class=\\"p-inputtext p-component p-element ng-untouched ng-pristine ng-valid\\"></span></div><button pbutton=\\"\\" pripple=\\"\\" type=\\"button\\" label=\\"Today\\" icon=\\"pi pi-bookmark\\" class=\\"p-element p-ripple layout-rightmenu-button p-button p-component ng-star-inserted\\" ng-reflect-label=\\"Today\\" ng-reflect-icon=\\"pi pi-bookmark\\"><span class=\\"p-button-icon p-button-icon-left pi pi-bookmark\\" aria-hidden=\\"true\\"></span><span class=\\"p-button-label\\">Today</span><span class=\\"p-ink\\"></span></button><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></div></div></solu-dev-breadcrumb-one><div class=\\"layout-main-content\\"><router-outlet></router-outlet><!--container--></div><solu-dev-footer-one><div class=\\"layout-footer\\"><div class=\\"footer-logo-container\\"><img id=\\"footer-logo\\" alt=\\"atlantis-layout\\" src=\\"assets/layout/images/logo-light.png\\"><span class=\\"app-name\\">ATLANTIS</span></div><span class=\\"copyright\\">© Your Organization - 2021</span></div></solu-dev-footer-one></div><solu-dev-right-menu-one><div class=\\"layout-rightmenu\\" ng-reflect-ng-class=\\"[object Object]\\"><a class=\\"layout-rightmenu-close\\"><i class=\\"pi pi-times\\"></i></a><div class=\\"user-detail-wrapper\\"><div class=\\"user-detail-content\\"><img src=\\"assets/layout/images/dashboard/gene.png\\" alt=\\"atlantis\\" class=\\"user-image\\"><span class=\\"user-name\\">Gene Russell</span><span class=\\"user-number\\">(406) 555-0120</span></div><div class=\\"user-tasks\\"><div class=\\"user-tasks-item in-progress\\"><a class=\\"task-number\\">23</a><span class=\\"task-name\\">Progress</span></div><div class=\\"user-tasks-item\\"><a class=\\"task-number\\">6</a><span class=\\"task-name\\">Overdue</span></div><div class=\\"user-tasks-item\\"><a class=\\"task-number\\">38</a><span class=\\"task-name\\">All deals</span></div></div></div><div><p-calendar class=\\"p-element p-inputwrapper ng-tns-c59-0 ng-untouched ng-pristine ng-valid\\" ng-reflect-inline=\\"true\\"><span class=\\"ng-tns-c59-0 p-calendar\\" ng-reflect-ng-class=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><div class=\\"ng-trigger ng-trigger-overlayAnimation ng-tns-c59-0 ng-animate-disabled p-datepicker p-component p-datepicker-inline ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\" pr_id_2=\\"\\" style=\\"width:0px;0:width;\\"><!--bindings={}--><div class=\\"p-datepicker-group-container ng-tns-c59-0 ng-star-inserted\\" style=\\"\\"><div class=\\"p-datepicker-group ng-tns-c59-0 ng-star-inserted\\"><div class=\\"p-datepicker-header ng-tns-c59-0\\"><button type=\\"button\\" pripple=\\"\\" class=\\"p-ripple p-element p-datepicker-prev p-link ng-tns-c59-0 ng-star-inserted\\"><span class=\\"p-datepicker-prev-icon pi pi-chevron-left ng-tns-c59-0\\"></span><span class=\\"p-ink\\"></span></button><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><div class=\\"p-datepicker-title ng-tns-c59-0\\"><button type=\\"button\\" class=\\"p-datepicker-month p-link ng-tns-c59-0 ng-star-inserted\\"> August </button><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><button type=\\"button\\" class=\\"p-datepicker-year p-link ng-tns-c59-0 ng-star-inserted\\"> 2022 </button><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></div><button type=\\"button\\" pripple=\\"\\" class=\\"p-ripple p-element p-datepicker-next p-link ng-tns-c59-0\\" style=\\"display: inline-flex;\\"><span class=\\"p-datepicker-next-icon pi pi-chevron-right ng-tns-c59-0\\"></span><span class=\\"p-ink\\"></span></button></div><div class=\\"p-datepicker-calendar-container ng-tns-c59-0 ng-star-inserted\\"><table class=\\"p-datepicker-calendar ng-tns-c59-0\\"><thead class=\\"ng-tns-c59-0\\"><tr class=\\"ng-tns-c59-0\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><th scope=\\"col\\" class=\\"ng-tns-c59-0 ng-star-inserted\\"><span class=\\"ng-tns-c59-0\\">Su</span></th><th scope=\\"col\\" class=\\"ng-tns-c59-0 ng-star-inserted\\"><span class=\\"ng-tns-c59-0\\">Mo</span></th><th scope=\\"col\\" class=\\"ng-tns-c59-0 ng-star-inserted\\"><span class=\\"ng-tns-c59-0\\">Tu</span></th><th scope=\\"col\\" class=\\"ng-tns-c59-0 ng-star-inserted\\"><span class=\\"ng-tns-c59-0\\">We</span></th><th scope=\\"col\\" class=\\"ng-tns-c59-0 ng-star-inserted\\"><span class=\\"ng-tns-c59-0\\">Th</span></th><th scope=\\"col\\" class=\\"ng-tns-c59-0 ng-star-inserted\\"><span class=\\"ng-tns-c59-0\\">Fr</span></th><th scope=\\"col\\" class=\\"ng-tns-c59-0 ng-star-inserted\\"><span class=\\"ng-tns-c59-0\\">Sa</span></th><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"Su,Mo,Tu,We,Th,Fr,Sa\\"
+}--></tr></thead><tbody class=\\"ng-tns-c59-0\\"><tr class=\\"ng-tns-c59-0 ng-star-inserted\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><td class=\\"ng-tns-c59-0 p-datepicker-other-month ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 p-disabled ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">31<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">1<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 p-datepicker-today ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\" tabindex=\\"0\\">2<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">3<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">4<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">5<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">6<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"[object Object],[object Object\\"
+}--></tr><tr class=\\"ng-tns-c59-0 ng-star-inserted\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">7<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">8<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">9<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">10<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">11<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">12<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">13<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"[object Object],[object Object\\"
+}--></tr><tr class=\\"ng-tns-c59-0 ng-star-inserted\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">14<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">15<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">16<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">17<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">18<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">19<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">20<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"[object Object],[object Object\\"
+}--></tr><tr class=\\"ng-tns-c59-0 ng-star-inserted\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">21<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">22<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">23<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">24<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">25<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">26<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">27<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"[object Object],[object Object\\"
+}--></tr><tr class=\\"ng-tns-c59-0 ng-star-inserted\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">28<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">29<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">30<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">31<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 p-datepicker-other-month ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 p-disabled ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">1<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 p-datepicker-other-month ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 p-disabled ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">2<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><td class=\\"ng-tns-c59-0 p-datepicker-other-month ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 p-disabled ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">3<!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
+}--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></td><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"[object Object],[object Object\\"
+}--></tr><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"[object Object],[object Object\\"
+}--></tbody></table></div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></div><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"[object Object]\\"
+}--></div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--bindings={}--><!--bindings={}--></div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></span></p-calendar></div><div class=\\"daily-plan-wrapper\\"><span class=\\"today-date\\">14 Sunday, Jun 2020</span><ul><li><span class=\\"event-time\\">1:00 PM - 2:00 PM</span><span class=\\"event-topic\\">Meeting with Alfredo Rhel Madden</span></li><li><span class=\\"event-time\\">2:00 PM - 3:00 PM</span><span class=\\"event-topic\\">Team Sync</span></li><li><span class=\\"event-time\\">5:00 PM - 6:00 PM</span><span class=\\"event-topic\\">Team Sync</span></li><li><span class=\\"event-time\\">7:00 PM - 7:30 PM</span><span class=\\"event-topic\\">Meeting with Engineering managers</span></li></ul></div></div></solu-dev-right-menu-one><solu-dev-app-config><a id=\\"layout-config-button\\" class=\\"layout-config-button\\" style=\\"cursor: pointer;\\"><i class=\\"pi pi-cog\\"></i></a><div class=\\"layout-config\\" ng-reflect-ng-class=\\"[object Object]\\"><h5>Menu Type</h5><div class=\\"field-radiobutton\\"><p-radiobutton name=\\"layoutMode\\" value=\\"static\\" inputid=\\"layoutMode1\\" class=\\"p-element ng-untouched ng-pristine ng-valid\\" ng-reflect-name=\\"layoutMode\\" ng-reflect-value=\\"static\\" ng-reflect-input-id=\\"layoutMode1\\" ng-reflect-model=\\"sidebar\\"><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton p-component\\"><div class=\\"p-hidden-accessible\\"><input type=\\"radio\\" id=\\"layoutMode1\\" name=\\"layoutMode\\" value=\\"static\\" aria-checked=\\"false\\"></div><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton-box\\"><span class=\\"p-radiobutton-icon\\"></span></div></div><!--bindings={}--></p-radiobutton><label for=\\"layoutMode1\\">Static</label></div><div class=\\"field-radiobutton\\"><p-radiobutton name=\\"layoutMode\\" value=\\"overlay\\" inputid=\\"layoutMode2\\" class=\\"p-element ng-untouched ng-pristine ng-valid\\" ng-reflect-name=\\"layoutMode\\" ng-reflect-value=\\"overlay\\" ng-reflect-input-id=\\"layoutMode2\\" ng-reflect-model=\\"sidebar\\"><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton p-component\\"><div class=\\"p-hidden-accessible\\"><input type=\\"radio\\" id=\\"layoutMode2\\" name=\\"layoutMode\\" value=\\"overlay\\" aria-checked=\\"false\\"></div><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton-box\\"><span class=\\"p-radiobutton-icon\\"></span></div></div><!--bindings={}--></p-radiobutton><label for=\\"layoutMode2\\">Overlay</label></div><div class=\\"field-radiobutton\\"><p-radiobutton name=\\"layoutMode\\" value=\\"slim\\" inputid=\\"layoutMode3\\" class=\\"p-element ng-untouched ng-pristine ng-valid\\" ng-reflect-name=\\"layoutMode\\" ng-reflect-value=\\"slim\\" ng-reflect-input-id=\\"layoutMode3\\" ng-reflect-model=\\"sidebar\\"><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton p-component\\"><div class=\\"p-hidden-accessible\\"><input type=\\"radio\\" id=\\"layoutMode3\\" name=\\"layoutMode\\" value=\\"slim\\" aria-checked=\\"false\\"></div><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton-box\\"><span class=\\"p-radiobutton-icon\\"></span></div></div><!--bindings={}--></p-radiobutton><label for=\\"layoutMode3\\">Slim</label></div><div class=\\"field-radiobutton\\"><p-radiobutton name=\\"layoutMode\\" value=\\"horizontal\\" inputid=\\"layoutMode4\\" class=\\"p-element ng-untouched ng-pristine ng-valid\\" ng-reflect-name=\\"layoutMode\\" ng-reflect-value=\\"horizontal\\" ng-reflect-input-id=\\"layoutMode4\\" ng-reflect-model=\\"sidebar\\"><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton p-component\\"><div class=\\"p-hidden-accessible\\"><input type=\\"radio\\" id=\\"layoutMode4\\" name=\\"layoutMode\\" value=\\"horizontal\\" aria-checked=\\"false\\"></div><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton-box\\"><span class=\\"p-radiobutton-icon\\"></span></div></div><!--bindings={}--></p-radiobutton><label for=\\"layoutMode4\\">Horizontal</label></div><div class=\\"field-radiobutton\\"><p-radiobutton name=\\"layoutMode\\" value=\\"sidebar\\" inputid=\\"layoutMode5\\" class=\\"p-element ng-untouched ng-pristine ng-valid\\" ng-reflect-name=\\"layoutMode\\" ng-reflect-value=\\"sidebar\\" ng-reflect-input-id=\\"layoutMode5\\" ng-reflect-model=\\"sidebar\\"><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton p-component\\"><div class=\\"p-hidden-accessible\\"><input type=\\"radio\\" id=\\"layoutMode5\\" name=\\"layoutMode\\" value=\\"sidebar\\" aria-checked=\\"false\\"></div><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton-box\\"><span class=\\"p-radiobutton-icon\\"></span></div></div><!--bindings={}--></p-radiobutton><label for=\\"layoutMode5\\">Sidebar</label></div><h5>Color Scheme</h5><div class=\\"field-radiobutton\\"><p-radiobutton name=\\"darkMode\\" value=\\"light\\" inputid=\\"darkMode1\\" class=\\"p-element ng-untouched ng-pristine ng-valid\\" ng-reflect-name=\\"darkMode\\" ng-reflect-value=\\"light\\" ng-reflect-input-id=\\"darkMode1\\" ng-reflect-model=\\"dark\\"><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton p-component\\"><div class=\\"p-hidden-accessible\\"><input type=\\"radio\\" id=\\"darkMode1\\" name=\\"darkMode\\" value=\\"light\\" aria-checked=\\"false\\"></div><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton-box\\"><span class=\\"p-radiobutton-icon\\"></span></div></div><!--bindings={}--></p-radiobutton><label for=\\"darkMode1\\">Light</label></div><div class=\\"field-radiobutton\\"><p-radiobutton name=\\"darkMode\\" value=\\"dark\\" inputid=\\"darkMode2\\" class=\\"p-element ng-untouched ng-pristine ng-valid\\" ng-reflect-name=\\"darkMode\\" ng-reflect-value=\\"dark\\" ng-reflect-input-id=\\"darkMode2\\" ng-reflect-model=\\"dark\\"><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton p-component\\"><div class=\\"p-hidden-accessible\\"><input type=\\"radio\\" id=\\"darkMode2\\" name=\\"darkMode\\" value=\\"dark\\" aria-checked=\\"false\\"></div><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-radiobutton-box\\"><span class=\\"p-radiobutton-icon\\"></span></div></div><!--bindings={}--></p-radiobutton><label for=\\"darkMode2\\">Dark</label></div><h5>Ripple Effect</h5><p-inputswitch class=\\"p-element ng-untouched ng-pristine ng-valid\\" ng-reflect-model=\\"true\\"><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-inputswitch p-component\\"><div class=\\"p-hidden-accessible\\"><input type=\\"checkbox\\" role=\\"switch\\" aria-checked=\\"false\\"></div><span class=\\"p-inputswitch-slider\\"></span></div></p-inputswitch><h5>Layouts</h5><div class=\\"layout-themes\\"><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(15, 139, 253);\\" ng-reflect-ng-style=\\"[object Object]\\"><i class=\\"pi pi-check ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(11, 209, 138);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(236, 77, 188);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(253, 146, 20);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(135, 62, 254);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(252, 97, 97);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(0, 208, 222);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(238, 229, 0);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"[object Object],[object Object\\"
+}--></div><h5>Themes</h5><div class=\\"layout-themes\\"><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(15, 139, 253);\\" ng-reflect-ng-style=\\"[object Object]\\"><i class=\\"pi pi-check ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(11, 209, 138);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(236, 77, 188);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(253, 146, 20);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(135, 62, 254);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(252, 97, 97);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(0, 208, 222);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><div class=\\"ng-star-inserted\\"><a style=\\"cursor: pointer; background-color: rgb(238, 229, 0);\\" ng-reflect-ng-style=\\"[object Object]\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"[object Object],[object Object\\"
+}--></div></div></solu-dev-app-config></div></solu-dev-dashboard-menu-one>"
+`;

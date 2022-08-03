@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBarOneComponent this should be equal to the snapshot 1`] = `
+"<p-menubar class=\\"p-element\\" ng-reflect-model=\\"\\"><div ng-reflect-ng-class=\\"[object Object]\\" class=\\"p-menubar p-component\\"><div class=\\"p-menubar-start\\"><img alt=\\"Logo compañia\\" class=\\"mr-2\\" src=\\"\\" height=\\"40\\"><!--bindings={
+  \\"ng-reflect-ng-template-outlet\\": \\"[object Object]\\"
+}--></div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"[object Object]\\"
+}--><a tabindex=\\"0\\" class=\\"p-menubar-button\\"><i class=\\"pi pi-bars\\"></i></a><p-menubarsub root=\\"root\\" class=\\"p-element\\" ng-reflect-root=\\"root\\" ng-reflect-item=\\"\\" ng-reflect-base-z-index=\\"0\\" ng-reflect-auto-z-index=\\"true\\"><ul ng-reflect-ng-class=\\"[object Object]\\" role=\\"menubar\\" class=\\"p-menubar-root-list\\"><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"\\"
+}--></ul></p-menubarsub><div class=\\"p-menubar-end\\"><!--bindings={
+  \\"ng-reflect-ng-template-outlet\\": \\"[object Object]\\"
+}--></div><!--bindings={
+  \\"ng-reflect-ng-if-else\\": \\"[object Object]\\"
+}--><!--container--></div></p-menubar>"
+`;

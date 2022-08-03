@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InlineMenuOneComponent this should be equal to the snapshot 1`] = `
+"<div class=\\"ng-tns-c61-0 layout-inline-menu ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><a class=\\"layout-inline-menu-action ng-tns-c61-0\\"><img src=\\"assets/layout/images/profile-image.png\\" alt=\\"avatar\\" style=\\"width: 44px; height: 44px;\\" class=\\"ng-tns-c61-0\\"><span class=\\"layout-inline-menu-text ng-tns-c61-0\\">User Test</span><i class=\\"layout-inline-menu-icon pi pi-angle-down ng-tns-c61-0\\"></i></a><ul class=\\"layout-inline-menu-action-panel ng-tns-c61-0 ng-trigger ng-trigger-inline\\" style=\\"height:0px;overflow:hidden;0:height;1:overflow;\\"><li class=\\"layout-inline-menu-action-item ng-tns-c61-0\\"><a routerlinkactive=\\"router-link-active\\" class=\\"ng-tns-c61-0\\" ng-reflect-router-link-active=\\"router-link-active\\" ng-reflect-router-link=\\"/logout\\" href=\\"/logout\\"><i class=\\"pi pi-power-off pi-fw ng-tns-c61-0\\"></i><span class=\\"ng-tns-c61-0\\">Logout</span></a></li><li class=\\"layout-inline-menu-action-item ng-tns-c61-0\\"><a class=\\"ng-tns-c61-0\\"><i class=\\"pi pi-cog pi-fw ng-tns-c61-0\\"></i><span class=\\"ng-tns-c61-0\\">Settings</span></a></li><li class=\\"layout-inline-menu-action-item ng-tns-c61-0\\"><a class=\\"ng-tns-c61-0\\"><i class=\\"pi pi-user pi-fw ng-tns-c61-0\\"></i><span class=\\"ng-tns-c61-0\\">Profile</span></a></li></ul></div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}-->"
+`;

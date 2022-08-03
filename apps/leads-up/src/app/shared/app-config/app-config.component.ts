@@ -15,7 +15,6 @@ import { ConfigService } from './services/app.config.service';
   imports: [CommonModule, FormsModule, RadioButtonModule, InputSwitchModule],
   providers: [ConfigService],
   templateUrl: './app-config.component.html',
-  styleUrls: ['./app-config.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppConfigComponent implements OnInit {
