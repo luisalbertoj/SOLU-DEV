@@ -1,5 +1,6 @@
 import { HttpClientModule, HttpErrorResponse } from '@angular/common/http';
 import { TestBed } from '@angular/core/testing';
+import { testData } from '../../../assets/test-data';
 import { LoginModel, LoginResModel } from '../models/login.model';
 
 import { LoginService } from './login.service';
@@ -14,9 +15,9 @@ describe('LoginService', () => {
     service = TestBed.inject(LoginService);
   });
   const users: LoginModel[] = [
-    { username: 'luis', password: '123' },
-    { username: 'luisB', password: '1234' },
-    { username: '', password: '' },
+    testData.loginCase.case1,
+    testData.loginCase.case3,
+    testData.loginCase.case2,
   ];
   it('should be created', () => {
     expect(service).toBeTruthy();
@@ -43,12 +44,12 @@ describe('LoginService', () => {
     });
   });
   it('this should use the login with failed user null', (done) => {
-   service.login(users[2]).subscribe({
-     next: (res) => expect(!res).toBeTruthy(),
-     error: (err: HttpErrorResponse) => {
-       expect(!err.ok).toBeTruthy();
-       done();
-     },
-   });
+    service.login(users[2]).subscribe({
+      next: (res) => expect(!res).toBeTruthy(),
+      error: (err: HttpErrorResponse) => {
+        expect(!err.ok).toBeTruthy();
+        done();
+      },
+    });
   });
 });

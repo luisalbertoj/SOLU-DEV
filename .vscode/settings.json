@@ -29,5 +29,8 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "Git bash",
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

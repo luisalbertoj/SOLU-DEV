@@ -20,7 +20,7 @@
       "label": "api test coverage",
       "detail": "nx run api:test --code-coverage=true"
     },
-     {
+    {
       "type": "npm",
       "script": "e2e",
       "label": "e2e leads up",

@@ -13,7 +13,14 @@ import { BreadcrumbService } from './services/breadcrumb.service';
 @Component({
   selector: 'solu-dev-breadcrumb-one',
   standalone: true,
-  imports: [CommonModule, BreadcrumbModule, FormsModule, InputTextModule, ButtonModule, RippleModule],
+  imports: [
+    CommonModule,
+    BreadcrumbModule,
+    FormsModule,
+    InputTextModule,
+    ButtonModule,
+    RippleModule,
+  ],
   templateUrl: './breadcrumb-one.component.html',
   providers: [BreadcrumbService],
   changeDetection: ChangeDetectionStrategy.OnPush,

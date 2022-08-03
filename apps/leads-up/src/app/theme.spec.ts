@@ -1,6 +1,6 @@
-import { ThemeConfig } from "./theme.config";
+import { TestBed } from '@angular/core/testing';
 import { PrimeNGConfig } from 'primeng/api';
-import { TestBed } from "@angular/core/testing";
+import { ThemeConfig } from './theme.config';
 describe('ThemeConfig', () => {
   beforeEach(() =>
     TestBed.configureTestingModule({
@@ -14,6 +14,5 @@ describe('ThemeConfig', () => {
     expect(comp.layout).toBe('blue');
     expect(comp.ripple).toBe(true);
     expect(comp.colorScheme).toBe('dark');
-
   });
 });

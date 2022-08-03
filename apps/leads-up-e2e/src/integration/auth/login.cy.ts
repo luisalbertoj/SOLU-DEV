@@ -1,4 +1,4 @@
-const loginData = { username: 'luis', password: '123'}
+const loginData = { username: 'luis', password: '123' };
 describe('Login test', () => {
   beforeEach(() => cy.visit('http://localhost:4200'));
 

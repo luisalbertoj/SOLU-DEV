@@ -7,6 +7,7 @@ import {
 import { RouterTestingModule } from '@angular/router/testing';
 import { MessageService } from 'primeng/api';
 import { take } from 'rxjs';
+import { testData } from '../../../../assets/test-data';
 import { environment } from '../../../../environments/environment';
 import { AppComponent } from '../../../app.component';
 import { ToastService } from '../../../shared/toast/services/toast.service';
@@ -43,19 +44,17 @@ describe('LoginComponent', () => {
     expect(compiled.innerHTML).toMatchSnapshot();
   });
   it('should be validate if data is invalid', () => {
-    expect(LoginHooks.validateData({ username: '', password: '' })).toBe(false);
+    expect(LoginHooks.validateData(testData.loginCase.case2)).toBe(false);
   });
   it('should be validate if data is valid', () => {
-    expect(LoginHooks.validateData({ username: 'luis', password: '123' })).toBe(
-      true
-    );
+    expect(LoginHooks.validateData(testData.loginCase.case1)).toBe(true);
   });
   it('should be validate if data is invalid called login', () => {
-    component.loginData = { username: '', password: '123' };
+    component.loginData = testData.loginCase.case2;
     expect(component.handleLogin(new Event('', undefined))).toBe(false);
   });
   it('this should validate the login method', (done) => {
-    component.loginData = { username: 'luis', password: '123' };
+    component.loginData = testData.loginCase.case1;
     component.isLoading$
       .pipe(take(1))
       .subscribe((loading) => expect(loading).toBe(false));

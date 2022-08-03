@@ -1,4 +1,4 @@
-const { defineConfig } = require('cypress')
+import { defineConfig } from 'cypress';
 
 module.exports = defineConfig({
   fileServerFolder: '.',
@@ -9,8 +9,11 @@ module.exports = defineConfig({
   screenshotsFolder: '../../dist/cypress/apps/leads-up-e2e/screenshots',
   chromeWebSecurity: false,
   e2e: {
-    setupNodeEvents(on, config) { },
+    setupNodeEvents(on, config) {
+      on;
+      config;
+    },
     specPattern: './src/integration/**/**/*.cy.{js,jsx,ts,tsx}',
     supportFile: './src/support/index.ts',
   },
-})
+});
