@@ -5,9 +5,9 @@ import {
   HttpTestingController,
 } from '@angular/common/http/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { environment } from 'apps/leads-up/src/environments/environment';
 import { MessageService } from 'primeng/api';
 import { take } from 'rxjs';
+import { environment } from '../../../../environments/environment';
 import { AppComponent } from '../../../app.component';
 import { ToastService } from '../../../shared/toast/services/toast.service';
 import { LoginService } from '../../services/login.service';
@@ -51,8 +51,8 @@ describe('LoginComponent', () => {
     );
   });
   it('should be validate if data is invalid called login', () => {
-     component.loginData = { username: '', password: '123' };
-     expect(component.handleLogin(new Event('', undefined))).toBe(false);
+    component.loginData = { username: '', password: '123' };
+    expect(component.handleLogin(new Event('', undefined))).toBe(false);
   });
   it('this should validate the login method', (done) => {
     component.loginData = { username: 'luis', password: '123' };
