@@ -6,8 +6,9 @@ import { environment } from './environments/environment';
 
 if (environment.production) {
   enableProdMode();
-  // eslint-disable-next-line @typescript-eslint/no-empty-function
-  window.console.log = () => {};
+  window.console.log = () => {
+    // This is intentional
+  };
 }
 
 platformBrowserDynamic()
