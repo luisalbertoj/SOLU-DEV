@@ -9,7 +9,7 @@ export class ThemeConfig {
 
   theme = 'blue';
 
-  ripple: boolean;
+  ripple = false;
 
   colorScheme = 'dark';
 

@@ -8,7 +8,16 @@
     "start": "nx serve $PROJECT_NAME",
     "build": "nx build",
     "heroku-postbuild": "nx build $PROJECT_NAME --prod",
-    "test": "nx test"
+    "test": "nx test",
+    "test-coverage-leads-up": "npx nx test leads-up --code-coverage",
+    "test-coverage-api": "nx run api:test --code-coverage=true",
+    "e2e": "nx run leads-up-e2e:e2e"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx nx lint leads-up && npx nx lint api",
+      "pre-push": "npx nx test leads-up --code-coverage && nx run api:test --code-coverage=true && nx run leads-up-e2e:e2e"
+    }
   },
   "private": true,
   "dependencies": {
@@ -76,6 +85,7 @@
     "eslint": "~8.15.0",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-cypress": "^2.10.3",
+    "husky": "^8.0.1",
     "jest": "27.5.1",
     "jest-preset-angular": "~11.1.2",
     "nx": "14.4.3",

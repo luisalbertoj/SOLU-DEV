@@ -15,7 +15,6 @@ import { DashboardMenuOneComponent } from '../dashboard-menu-one/dashboard-menu-
   standalone: true,
   imports: [CommonModule, RouterModule],
   templateUrl: './inline-menu-one.component.html',
-  styleUrls: ['./inline-menu-one.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   animations: [
     trigger('inline', [

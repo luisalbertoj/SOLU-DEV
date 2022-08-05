@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-// Atento a esta línea, deberás hacer que empate con tu environment
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
 
@@ -13,7 +12,7 @@ const API_URL = environment.apiRoute;
 export class ApiHttpService {
   protected headers;
 
-  protected apiUrl = API_URL;
+  protected readonly apiUrl = API_URL;
 
   constructor(private http: HttpClient) {
     this.headers = {
@@ -29,6 +28,6 @@ export class ApiHttpService {
   }
 
   protected post({ url, payload }: { url: string; payload: unknown }) {
-    return this.http.post('api/' + url, payload, this.headers);
+    return this.http.post(this.apiUrl + url, payload, this.headers);
   }
 }

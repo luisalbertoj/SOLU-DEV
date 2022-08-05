@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-  apiRoute: 'http://localhost:3333/api/',
+  apiRoute: 'https://leads-up-api.herokuapp.com/api/',
+  defaultLanguage: 'en-US',
+  supportedLanguages: ['en-US', 'es-ES'],
 };
 
 /*

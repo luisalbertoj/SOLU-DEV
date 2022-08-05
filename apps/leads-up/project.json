@@ -50,7 +50,21 @@
           "vendorChunk": true,
           "extractLicenses": false,
           "sourceMap": true,
-          "namedChunks": true
+          "namedChunks": true,
+          "fileReplacements": [
+            {
+              "replace": "apps/leads-up/src/environments/environment.ts",
+              "with": "apps/leads-up/src/environments/environment.dev.ts"
+            }
+          ]
+        },
+        "test": {
+          "fileReplacements": [
+            {
+              "replace": "apps/leads-up/src/environments/environment.ts",
+              "with": "apps/leads-up/src/environments/environment.ci.ts"
+            }
+          ]
         }
       },
       "defaultConfiguration": "production"
@@ -88,6 +102,12 @@
       "options": {
         "jestConfig": "apps/leads-up/jest.config.ts",
         "passWithNoTests": true
+      },
+      "configurations": {
+        "fileReplacements": {
+          "replace": "apps/leads-up/src/environments/environment.ts",
+          "with": "apps/leads-up/src/environments/environment.ci.ts"
+        }
       }
     }
   },

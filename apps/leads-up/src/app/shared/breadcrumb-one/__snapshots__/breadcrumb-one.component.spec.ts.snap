@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BreadcrumbOneComponent this should be equal to the snapshot 1`] = `
+"<div class=\\"layout-breadcrumb-container\\"><div class=\\"layout-breadcrumb-left-items\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><p-breadcrumb styleclass=\\"layout-breadcrumb py-2\\" class=\\"p-element\\" ng-reflect-style-class=\\"layout-breadcrumb py-2\\"><div class=\\"layout-breadcrumb py-2 p-breadcrumb p-component\\" ng-reflect-ng-class=\\"p-breadcrumb p-component\\"><ul><!--bindings={}--><!--bindings={}--><!--bindings={}--></ul></div></p-breadcrumb></div><div class=\\"layout-breadcrumb-right-items\\"><a tabindex=\\"0\\" class=\\"search-icon\\"><i class=\\"pi pi-search\\"></i></a><div class=\\"search-wrapper\\" ng-reflect-ng-class=\\"[object Object]\\"><span class=\\"p-input-icon-left\\"><i class=\\"pi pi-search\\"></i><input type=\\"text\\" pinputtext=\\"\\" placeholder=\\"Search...\\" class=\\"p-inputtext p-component p-element ng-untouched ng-pristine ng-valid\\"></span></div><button pbutton=\\"\\" pripple=\\"\\" type=\\"button\\" label=\\"Today\\" icon=\\"pi pi-bookmark\\" class=\\"p-element p-ripple layout-rightmenu-button p-button p-component\\" ng-reflect-label=\\"Today\\" ng-reflect-icon=\\"pi pi-bookmark\\"><span class=\\"p-button-icon p-button-icon-left pi pi-bookmark\\" aria-hidden=\\"true\\"></span><span class=\\"p-button-label\\">Today</span><span class=\\"p-ink\\"></span></button><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></div></div>"
+`;

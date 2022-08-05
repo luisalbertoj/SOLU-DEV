@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonOneComponent this should be equal to the snapshot 1`] = `"<button pbutton=\\"\\" pripple=\\"\\" class=\\"p-element p-ripple p-button p-component\\" type=\\"button\\"><span class=\\"p-button-label\\">&nbsp;</span></button>"`;

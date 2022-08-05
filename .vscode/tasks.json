@@ -7,6 +7,24 @@
       "problemMatcher": [],
       "label": "npm: start",
       "detail": "nx serve"
+    },
+    {
+      "type": "npm",
+      "script": "test-coverage-leads-up",
+      "label": "leads up test coverage",
+      "detail": "npx nx test leads-up --code-coverage"
+    },
+    {
+      "type": "npm",
+      "script": "test-coverage-api",
+      "label": "api test coverage",
+      "detail": "nx run api:test --code-coverage=true"
+    },
+    {
+      "type": "npm",
+      "script": "e2e",
+      "label": "e2e leads up",
+      "detail": "nx run leads-up-e2e:e2e"
     }
   ]
 }

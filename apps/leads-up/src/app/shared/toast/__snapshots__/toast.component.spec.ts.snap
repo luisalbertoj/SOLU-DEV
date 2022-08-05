@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToastComponent this should be equal to the snapshot 1`] = `"<p-toast class=\\"p-element ng-tns-c61-0\\"><div class=\\"ng-tns-c61-0 p-toast p-component p-toast-top-right\\" ng-reflect-ng-class=\\"p-toast p-component p-toast-to\\"><!--bindings={}--></div></p-toast>"`;

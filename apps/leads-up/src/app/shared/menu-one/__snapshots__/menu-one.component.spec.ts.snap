@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuOneComponent this should be equal to the snapshot 1`] = `
+"<div class=\\"layout-menu-wrapper\\" ng-reflect-ng-class=\\"[object Object]\\"><div class=\\"menu-logo ng-star-inserted\\"><a href=\\"#\\" class=\\"logo\\"><img src=\\"assets/layout/images/logo-light.png\\"></a><a href=\\"#\\" class=\\"app-name ng-star-inserted\\"><img src=\\"assets/layout/images/appname-light.png\\"></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a href=\\"#\\" class=\\"menu-pin\\"><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--bindings={}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--></a></div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><div class=\\"layout-menu-container\\"><ul class=\\"layout-menu\\"><li solu-dev-menu-item=\\"\\" class=\\"ng-tns-c62-1 layout-root-menuitem ng-star-inserted\\" ng-reflect-item=\\"[object Object]\\" ng-reflect-index=\\"0\\" ng-reflect-root=\\"true\\"><div class=\\"layout-menuitem-root-text ng-tns-c62-1 ng-star-inserted\\"> Favorites </div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c62-1 ng-star-inserted\\" tabindex=\\"0\\"><i class=\\"layout-menuitem-icon ng-tns-c62-1 pi pi-home\\" ng-reflect-ng-class=\\"pi pi-home\\"></i><span class=\\"layout-menuitem-text ng-tns-c62-1\\">Favorites</span><i class=\\"pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c62-1 ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"[object Object]\\"
+}--><!--bindings={}--><span class=\\"p-ink\\"></span></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--ng-container--></li><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--ng-container--><li solu-dev-menu-item=\\"\\" class=\\"ng-tns-c62-2 layout-root-menuitem ng-star-inserted\\" ng-reflect-item=\\"[object Object]\\" ng-reflect-index=\\"1\\" ng-reflect-root=\\"true\\"><div class=\\"layout-menuitem-root-text ng-tns-c62-2 ng-star-inserted\\"> UI Kit </div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c62-2 ng-star-inserted\\" tabindex=\\"0\\"><i class=\\"layout-menuitem-icon ng-tns-c62-2 pi pi-fw pi-star\\" ng-reflect-ng-class=\\"pi pi-fw pi-star\\"></i><span class=\\"layout-menuitem-text ng-tns-c62-2\\">UI Kit</span><i class=\\"pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c62-2 ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"[object Object],[object Object\\"
+}--><!--bindings={}--><span class=\\"p-ink\\"></span></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--ng-container--></li><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--ng-container--><li solu-dev-menu-item=\\"\\" class=\\"ng-tns-c62-3 layout-root-menuitem ng-star-inserted\\" ng-reflect-item=\\"[object Object]\\" ng-reflect-index=\\"2\\" ng-reflect-root=\\"true\\"><div class=\\"layout-menuitem-root-text ng-tns-c62-3 ng-star-inserted\\"> Utilities </div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c62-3 ng-star-inserted\\" tabindex=\\"0\\"><i class=\\"layout-menuitem-icon ng-tns-c62-3 pi pi-fw pi-compass\\" ng-reflect-ng-class=\\"pi pi-fw pi-compass\\"></i><span class=\\"layout-menuitem-text ng-tns-c62-3\\">Utilities</span><i class=\\"pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c62-3 ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"[object Object],[object Object\\"
+}--><!--bindings={}--><span class=\\"p-ink\\"></span></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--ng-container--></li><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--ng-container--><li solu-dev-menu-item=\\"\\" class=\\"ng-tns-c62-4 layout-root-menuitem ng-star-inserted\\" ng-reflect-item=\\"[object Object]\\" ng-reflect-index=\\"3\\" ng-reflect-root=\\"true\\"><div class=\\"layout-menuitem-root-text ng-tns-c62-4 ng-star-inserted\\"> Pages </div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c62-4 ng-star-inserted\\" tabindex=\\"0\\"><i class=\\"layout-menuitem-icon ng-tns-c62-4 pi pi-fw pi-briefcase\\" ng-reflect-ng-class=\\"pi pi-fw pi-briefcase\\"></i><span class=\\"layout-menuitem-text ng-tns-c62-4\\">Pages</span><i class=\\"pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c62-4 ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"[object Object],[object Object\\"
+}--><!--bindings={}--><span class=\\"p-ink\\"></span></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--ng-container--></li><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--ng-container--><li solu-dev-menu-item=\\"\\" class=\\"ng-tns-c62-5 layout-root-menuitem ng-star-inserted\\" ng-reflect-item=\\"[object Object]\\" ng-reflect-index=\\"4\\" ng-reflect-root=\\"true\\"><div class=\\"layout-menuitem-root-text ng-tns-c62-5 ng-star-inserted\\"> Hierarchy </div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c62-5 ng-star-inserted\\" tabindex=\\"0\\"><i class=\\"layout-menuitem-icon ng-tns-c62-5 pi pi-fw pi-align-left\\" ng-reflect-ng-class=\\"pi pi-fw pi-align-left\\"></i><span class=\\"layout-menuitem-text ng-tns-c62-5\\">Hierarchy</span><i class=\\"pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c62-5 ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"[object Object],[object Object\\"
+}--><!--bindings={}--><span class=\\"p-ink\\"></span></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--ng-container--></li><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--ng-container--><li solu-dev-menu-item=\\"\\" class=\\"ng-tns-c62-6 layout-root-menuitem ng-star-inserted\\" ng-reflect-item=\\"[object Object]\\" ng-reflect-index=\\"5\\" ng-reflect-root=\\"true\\"><div class=\\"layout-menuitem-root-text ng-tns-c62-6 ng-star-inserted\\"> Start </div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><a pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c62-6 ng-star-inserted\\" tabindex=\\"0\\"><i class=\\"layout-menuitem-icon ng-tns-c62-6 pi pi-fw pi-download\\" ng-reflect-ng-class=\\"pi pi-fw pi-download\\"></i><span class=\\"layout-menuitem-text ng-tns-c62-6\\">Start</span><i class=\\"pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c62-6 ng-star-inserted\\"></i><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"[object Object],[object Object\\"
+}--><!--bindings={}--><span class=\\"p-ink\\"></span></a><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"false\\"
+}--><!--ng-container--></li><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--><!--bindings={}--><!--ng-container--><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"[object Object],[object Object\\"
+}--></ul></div><solu-dev-inline-menu-one class=\\"ng-tns-c63-0\\"><div class=\\"ng-tns-c63-0 layout-inline-menu ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><a class=\\"layout-inline-menu-action ng-tns-c63-0\\"><img src=\\"assets/layout/images/profile-image.png\\" alt=\\"avatar\\" style=\\"width: 44px; height: 44px;\\" class=\\"ng-tns-c63-0\\"><span class=\\"layout-inline-menu-text ng-tns-c63-0\\">User Test</span><i class=\\"layout-inline-menu-icon pi pi-angle-down ng-tns-c63-0\\"></i></a><ul class=\\"layout-inline-menu-action-panel ng-tns-c63-0 ng-trigger ng-trigger-inline\\" style=\\"height:0px;overflow:hidden;0:height;1:overflow;\\"><li class=\\"layout-inline-menu-action-item ng-tns-c63-0\\"><a routerlinkactive=\\"router-link-active\\" class=\\"ng-tns-c63-0\\" ng-reflect-router-link-active=\\"router-link-active\\" ng-reflect-router-link=\\"/logout\\" href=\\"/logout\\"><i class=\\"pi pi-power-off pi-fw ng-tns-c63-0\\"></i><span class=\\"ng-tns-c63-0\\">Logout</span></a></li><li class=\\"layout-inline-menu-action-item ng-tns-c63-0\\"><a class=\\"ng-tns-c63-0\\"><i class=\\"pi pi-cog pi-fw ng-tns-c63-0\\"></i><span class=\\"ng-tns-c63-0\\">Settings</span></a></li><li class=\\"layout-inline-menu-action-item ng-tns-c63-0\\"><a class=\\"ng-tns-c63-0\\"><i class=\\"pi pi-user pi-fw ng-tns-c63-0\\"></i><span class=\\"ng-tns-c63-0\\">Profile</span></a></li></ul></div><!--bindings={
+  \\"ng-reflect-ng-if\\": \\"true\\"
+}--></solu-dev-inline-menu-one></div>"
+`;

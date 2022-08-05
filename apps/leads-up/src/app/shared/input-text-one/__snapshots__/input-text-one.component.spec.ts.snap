@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputTextOneComponent this should be equal to the snapshot 1`] = `"<input pinputtext=\\"\\" class=\\"p-inputtext p-component p-element ng-untouched ng-pristine ng-valid\\" type=\\"undefined\\" autocomplete=\\"undefined\\" placeholder=\\"undefined\\" ng-reflect-ng-class=\\"ng-dirty ng-invalid\\">"`;

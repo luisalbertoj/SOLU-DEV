@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterOneComponent this should be equal to the snapshot 1`] = `"<div class=\\"layout-footer\\"><div class=\\"footer-logo-container\\"><img id=\\"footer-logo\\" alt=\\"atlantis-layout\\" src=\\"assets/layout/images/logo-light.png\\"><span class=\\"app-name\\">ATLANTIS</span></div><span class=\\"copyright\\">© Your Organization - 2021</span></div>"`;

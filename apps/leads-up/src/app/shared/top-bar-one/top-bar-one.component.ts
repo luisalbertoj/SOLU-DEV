@@ -9,7 +9,6 @@ import { MenuOneComponent } from '../menu-one/menu-one.component';
   standalone: true,
   imports: [CommonModule, MenuOneComponent],
   templateUrl: './top-bar-one.component.html',
-  styleUrls: ['./top-bar-one.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TopBarOneComponent {

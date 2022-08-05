@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeComponent this should be equal to the snapshot 1`] = `"<p>home works!</p>"`;

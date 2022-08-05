@@ -8,7 +8,6 @@ import {
 import { CommonModule } from '@angular/common';
 import {
   ChangeDetectionStrategy,
-  ChangeDetectorRef,
   Component,
   Input,
   OnDestroy,
@@ -26,7 +25,6 @@ import { MenuService } from '../dashboard-menu-one/services/dashboard-menu.servi
   standalone: true,
   imports: [CommonModule, RouterModule, RippleModule],
   templateUrl: './menu-item.component.html',
-  styleUrls: ['./menu-item.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   // eslint-disable-next-line @angular-eslint/no-host-metadata-property
   host: {
@@ -105,7 +103,6 @@ export class MenuItemComponent implements OnInit, OnDestroy {
   constructor(
     public app: DashboardMenuOneComponent,
     public router: Router,
-    private cd: ChangeDetectorRef,
     private menuService: MenuService
   ) {
     this.menuSourceSubscription = this.menuService.menuSource$.subscribe(

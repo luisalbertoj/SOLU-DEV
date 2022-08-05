@@ -7,7 +7,6 @@ import { AppComponent } from '../../app.component';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './footer-one.component.html',
-  styleUrls: ['./footer-one.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FooterOneComponent {

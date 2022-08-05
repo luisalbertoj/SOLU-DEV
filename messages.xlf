@@ -2,13 +2,6 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="4281372307980311193" datatype="html">
-        <source>string_to_translate</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">apps/leads-up/src/app/app.component.ts</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-      </trans-unit>
     </body>
   </file>
 </xliff>
