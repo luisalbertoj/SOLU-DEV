@@ -55,7 +55,7 @@ export function servicesOnRun(config: AppConfig, token: TokenProvider) {
       provide: TitleStrategy,
       useClass: PageTitleStrategy,
     },
-    {provide: LocationStrategy, useClass: HashLocationStrategy},
+    { provide: LocationStrategy, useClass: HashLocationStrategy },
     ToastService,
     MessageService,
   ],
