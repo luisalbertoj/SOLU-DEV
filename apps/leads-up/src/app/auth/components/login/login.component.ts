@@ -39,7 +39,6 @@ export class LoginComponent {
 
   handleLogin(evt?: Event) {
     if (evt) evt.preventDefault();
-    console.log(this.loginData);
     if (!LoginHooks.validateData(this.loginData)) {
       this._toast.open({
         detail: 'Username and password is required',

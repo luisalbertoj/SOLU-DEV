@@ -25,12 +25,10 @@ export class AccessInterceptor implements HttpInterceptor {
         error: (err: HttpErrorResponse) => {
           if (err instanceof HttpErrorResponse) {
             if (err.status === 401 && this._router.url !== '/auth') {
-              console.log(this._router.url);
               localStorage.removeItem('auth_token');
               this._router.navigate(['/access']);
               return;
             }
-            return;
           }
         },
       })

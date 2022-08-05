@@ -7,7 +7,6 @@ import { DashboardMenuOneComponent } from '../../shared/dashboard-menu-one/dashb
   standalone: true,
   imports: [CommonModule, DashboardMenuOneComponent],
   templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class DashboardComponent {}
