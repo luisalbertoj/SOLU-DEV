@@ -11,7 +11,7 @@
     "test": "nx test",
     "test-coverage-leads-up": "npx nx test leads-up --code-coverage",
     "test-coverage-api": "nx run api:test --code-coverage=true",
-    "test:ci": "ng run-many --target=test --all --parallel --coverage --coverageReporters=lcov && node ./tools/coverageMerger.js",
+    "test:ci": "ng run-many --target=test --all --parallel --coverage -u --coverageReporters=lcov && node ./tools/coverageMerger.js",
     "e2e": "nx run leads-up-e2e:e2e"
   },
   "husky": {

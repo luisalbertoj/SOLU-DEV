@@ -151,7 +151,7 @@ exports[`DashboardComponent this should be equal to the snapshot 1`] = `
   \\"ng-reflect-ng-for-of\\": \\"[object Object],[object Object\\"
 }--></tr><tr class=\\"ng-tns-c59-0 ng-star-inserted\\"><!--bindings={
   \\"ng-reflect-ng-if\\": \\"false\\"
-}--><td class=\\"ng-tns-c59-0 p-datepicker-today ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\" tabindex=\\"0\\">7<!--ng-container--><!--bindings={
+}--><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">7<!--ng-container--><!--bindings={
   \\"ng-reflect-ng-if\\": \\"true\\"
 }--><!--bindings={
   \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
@@ -209,7 +209,7 @@ exports[`DashboardComponent this should be equal to the snapshot 1`] = `
   \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
 }--><span class=\\"p-ink\\"></span></span><!--ng-container--><!--bindings={
   \\"ng-reflect-ng-if\\": \\"true\\"
-}--></td><td class=\\"ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\">16<!--ng-container--><!--bindings={
+}--></td><td class=\\"ng-tns-c59-0 p-datepicker-today ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\"><span draggable=\\"false\\" pripple=\\"\\" class=\\"p-ripple p-element ng-tns-c59-0 ng-star-inserted\\" ng-reflect-ng-class=\\"[object Object]\\" tabindex=\\"0\\">16<!--ng-container--><!--bindings={
   \\"ng-reflect-ng-if\\": \\"true\\"
 }--><!--bindings={
   \\"ng-reflect-ng-template-outlet-context\\": \\"[object Object]\\"
