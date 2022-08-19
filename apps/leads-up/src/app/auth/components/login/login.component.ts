@@ -59,7 +59,7 @@ export class LoginComponent {
         console.log('login-error', { err });
         setTimeout(() => {
           this._toast.open({
-            detail: 'Username or password is invalid',
+            detail: 'Username or password is invalid ',
             severity: 'error',
             summary: 'Error',
           });
