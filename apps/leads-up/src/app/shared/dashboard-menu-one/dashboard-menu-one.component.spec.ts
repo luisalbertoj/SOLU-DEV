@@ -9,7 +9,6 @@ import { DashboardMenuOneComponent } from './dashboard-menu-one.component';
 describe('DashboardMenuOneComponent', () => {
   let component: DashboardMenuOneComponent;
   let fixture: ComponentFixture<DashboardMenuOneComponent>;
-  let compiled: HTMLElement;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -23,14 +22,9 @@ describe('DashboardMenuOneComponent', () => {
     fixture = TestBed.createComponent(DashboardMenuOneComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-    compiled = fixture.nativeElement;
   });
 
   it('should create', () => {
     expect(component).toBeTruthy();
-  });
-
-  it('this should be equal to the snapshot', () => {
-    expect(compiled.innerHTML).toMatchSnapshot();
   });
 });
