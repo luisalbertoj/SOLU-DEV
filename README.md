@@ -1,6 +1,9 @@
-
-
 # SoluDev
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=luisalbertoj_SOLU-DEV&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=luisalbertoj_SOLU-DEV)
+
+
+
 
 This project was generated using [Nx](https://nx.dev).
 
