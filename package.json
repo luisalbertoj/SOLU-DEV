@@ -40,7 +40,7 @@
     "@nestjs/passport": "^9.0.0",
     "@nestjs/platform-express": "^8.0.0",
     "@ngxs/store": "^3.7.4",
-    "@nrwl/angular": "14.4.3",
+    "@nrwl/angular": "14.8.6",
     "mongoose": "^6.4.5",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",
@@ -56,7 +56,7 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^14.1.0",
+    "@angular-devkit/build-angular": "^15.0.0",
     "@angular-eslint/eslint-plugin": "~14.0.0",
     "@angular-eslint/eslint-plugin-template": "~14.0.0",
     "@angular-eslint/template-parser": "~14.0.0",
