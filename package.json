@@ -41,7 +41,7 @@
     "@nestjs/platform-express": "^8.0.0",
     "@ngxs/store": "^3.7.4",
     "@nrwl/angular": "14.4.3",
-    "mongoose": "^6.4.5",
+    "mongoose": "^6.11.3",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
